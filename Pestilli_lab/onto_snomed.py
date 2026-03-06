@@ -21,10 +21,10 @@ class SnomedOLSLookup:
         try:
             response = requests.get(url)
             if response.status_code == 200:
-                print(f"✅ Ontology '{self.ontology}' found on server.")
+                print(f"Ontology '{self.ontology}' found on server.")
                 return True
             else:
-                print(f"⚠️ Ontology '{self.ontology}' NOT found (Status: {response.status_code}).")
+                print(f"Ontology '{self.ontology}' NOT found (Status: {response.status_code}).")
                 print("   Searching for available SNOMED-related ontologies...")
                 
                 # Search for any ontology with 'snomed' in the name
@@ -206,8 +206,18 @@ class SnomedOLSLookup:
         return self.extract_data(data, graph, iri)
 
 snomed_ids = ['62872008', '89202009', '9000002', '36159002', '37035000', '88442005', '16746009', '1296738007', '279300007', '84013004', '42932006', '80049006', '87463005', '35664009', '55233005', '85637007', '28390009', '3960005', '70105001', '13958008', '89202009', '60105000', '26230003', '80434005']
-
-
+# new ids
+'''snomed_ids = snomed_ids = [
+    '279311004',
+    '59326000',
+    '279310003',
+    '70215001',
+    '362355007',
+    '362418008',
+    '279219000',
+    '279218008'
+]
+'''
 # --- Main Execution ---
 if __name__ == "__main__":
     tool = SnomedOLSLookup()

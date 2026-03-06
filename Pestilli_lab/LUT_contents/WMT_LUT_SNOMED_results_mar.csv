@@ -1,0 +1,9 @@
+Id,Label,Synonyms,Annotation: alternative label,Annotation: preferred label,Incoming: subClassOf,Outgoing: Subclass Of,Outgoing: hierarchicalAncestors,Outgoing: hierarchicalChildren,Outgoing: hierarchicalDescendants
+SNOMED_279311004,Entire rostrum of corpus callosum,,,Entire rostrum of corpus callosum,,hierarchicalParents,hierarchicalAncestors,,
+SNOMED_59326000,Structure of rostrum of corpus callosum,,Rostrum of corpus callosum,Structure of rostrum of corpus callosum,Entire rostrum of corpus callosum,hierarchicalParents,hierarchicalAncestors,hierarchicalChildren,hierarchicalDescendants
+SNOMED_279310003,Entire genu of corpus callosum,,,Entire genu of corpus callosum,,hierarchicalParents,hierarchicalAncestors,,
+SNOMED_70215001,Structure of genu of corpus callosum,,Genu of corpus callosum,Structure of genu of corpus callosum,Entire genu of corpus callosum,hierarchicalParents,hierarchicalAncestors,hierarchicalChildren,hierarchicalDescendants
+SNOMED_362355007,Entire splenium of corpus callosum,,,Entire splenium of corpus callosum,,hierarchicalParents,hierarchicalAncestors,,
+SNOMED_362418008,Entire inferior cerebellar peduncle,,,Entire inferior cerebellar peduncle,,hierarchicalParents,hierarchicalAncestors,,
+SNOMED_279219000,Entire middle cerebellar peduncle,,,Entire middle cerebellar peduncle,,hierarchicalParents,hierarchicalAncestors,,
+SNOMED_279218008,Entire superior cerebellar peduncle,,,Entire superior cerebellar peduncle,,hierarchicalParents,hierarchicalAncestors,,

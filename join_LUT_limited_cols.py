@@ -24,8 +24,8 @@ import re
 from pathlib import Path
 
 # Load the CSVs
-snomed_file = 'csvOutput/WMT_LUT_SNOMED_results_mar.csv'
-uberon_file = 'csvOutput/WMT_LUT_UBERON_results_mar.csv'
+snomed_file = './csvOutput/WMT_LUT_SNOMED_results_mar.csv'
+uberon_file = './csvOutput/WMT_LUT_UBERON_results_mar.csv'
 
 snomed_df = pd.read_csv(snomed_file)
 uberon_df = pd.read_csv(uberon_file)
@@ -125,9 +125,9 @@ merged_df = merged_df[final_columns]
 # Save output
 # -------------------
 merged_df.to_csv(
-    './csvOutput/merged_white_matter_part2.csv',
+    './csvOutput/master_mar6.csv',
     index=False,
     sep='\t'
 )
 
-print("Merged CSV saved as './csvOutput/merged_white_matter_part2.csv'")
+print("Merged CSV saved as './csvOutput/master_mar6.csv'")

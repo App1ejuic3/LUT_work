@@ -1,18 +1,23 @@
 # LUT_work
 
 **White Matter Tract Lookup Table — Ontology Alignment Pipeline**
+
 Pestilli Lab, The University of Texas at Austin
+
 Authors: Austin Leigh, Stephen Kiilu
+
 Date: May 2, 2025
+
 License: MIT
 
 ---
-
+## Current White Matter tract Look Up Table (LUT)
+An updated list of the current looktable with 69 different WM tracts listed can be found in the csvOutput folder, titled **8April_master.csv** [text](https://github.com/App1ejuic3/LUT_work/blob/main/csvOutput/8April_master.csv)
 ## Overview
 
-White matter tract nomenclature is inconsistent across the neuroimaging community. Different research groups and software toolboxes — TRACULA, TractSeg, AFQ, DSI Studio, Brainlife WMC — frequently assign different names to the same anatomical structures, and many of these definitions overlap or conflict without formal resolution. This creates barriers to reproducibility and makes cross-study comparison unreliable.
+White matter tract nomenclature is inconsistent across the neuroimaging community. Different research groups and software toolboxes — TRACULA, TractSeg, AFQ, DSI Studio, Brainlife WMC —  assign different names to the same anatomical structures, and many of these definitions overlap or conflict without a single anatomical definition (). This creates barriers to reproducibility and makes cross-study comparison unreliable.
 
-This repository contains a Python pipeline that constructs a structured Lookup Table (LUT) mapping white matter tract labels across two major biomedical ontologies — SNOMED CT and UBERON — and integrates synonym data from both sources into a single, queryable schema. The resulting table covers approximately 65 white matter tracts and is intended to serve as a reference resource for researchers working toward standardized tract nomenclature within the Brain Imaging Data Structure (BIDS) framework.
+This repository contains a Python pipeline that constructs a structured Lookup Table (LUT) mapping white matter tract labels across two major biomedical ontologies, SNOMED CT and UBERON, and integrates synonym data from both sources into a single, queryable schema. The resulting table covers approximately 65 white matter tracts and is intended to serve as a reference resource for researchers working toward standardized tract nomenclature within the Brain Imaging Data Structure (BIDS) framework.
 
 ---
 
@@ -48,7 +53,7 @@ The pipeline runs in four stages:
 **1. Ontology Querying (`onto_snomed.py`, `onto_uberon.py`)**
 Each script queries the [EBI OLS4 REST API](https://www.ebi.ac.uk/ols4/) to retrieve structured metadata for a list of white matter tract term IDs. For each term, the pipeline resolves the ID to an IRI, then retrieves the label, ontology ID, synonyms, textual definitions, and both incoming and outgoing ontological relationships via graph traversal. Results are saved as flat CSVs.
 
-Note: SNOMED CT is licensing-restricted on the public EBI OLS4 server. The script handles 403 and 404 responses gracefully, falling back to direct IRI construction using the standard `http://snomed.info/id/{term_id}` format when API search fails. No API key is required.
+Note: SNOMED CT is licensing-restricted on the public EBI OLS4 server. The script handles 403 and 404 responses gracefully, falling back to direct IRI construction using the standard `http://snomed.info/id/{term_id}` format when API search fails.
 
 **2. Schema Merging and Normalization (`join_LUT.py`)**
 The SNOMED and UBERON output tables are merged into a unified schema using pandas. A regex-based label normalization function strips SNOMED's verbose clinical prefixes and suffixes ("Structure of", "of brain", "(body structure)") so that labels from both ontologies can be matched on a shared `clean_label` primary key via an outer join. This join strategy preserves all records from both ontologies, including tracts with coverage in only one source. Synonym data distributed across three columns is consolidated into a single unified `synonyms` field.
@@ -66,7 +71,7 @@ A curated list of 312 white matter tract synonyms drawn from SNOMED incoming rel
 Ambiguous and discarded synonyms are logged with explanatory notes in `misc.csv` for future anatomical review.
 
 **4. Output**
-The final master table (`8April_master_v5.csv`) covers approximately 65 white matter tracts with the following fields:
+The final master table (`8April_master_v5.csv`) covers approximately 69 white matter tracts with the following fields:
 
 | Column | Description |
 |---|---|

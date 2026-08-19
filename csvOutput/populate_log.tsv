@@ -1,0 +1,184 @@
+row	clean_label	source_id	column	old_value	new_value
+1	anterior commissure	PREFLIGHT	Id_uberon	UBERON:0003039, UBERON:0003043	UBERON:0000935
+45	middle cerebellar peduncle	PREFLIGHT	Id_uberon	UBERON:0002336	UBERON:0002152
+36	inferior cerebellar peduncle	PREFLIGHT	Id_uberon	UBERON:0022264	UBERON:0002163
+83	posterior thalamic radiation	PREFLIGHT	Id_uberon	UBERON:0022264	UBERON:0034747
+38	inferior longitudinal fasciculus	PREFLIGHT	Id_uberon	UBERON:0035937	UBERON:0034743
+73	uncinate fasciculus	PREFLIGHT	Id_uberon	UBERON:0000935	UBERON:0003044
+31	extreme capsule	PREFLIGHT	Id_uberon	UBERON:0004545	UBERON:0014528
+46	medial longitudinal fasciculus	PREFLIGHT	Id_uberon	UBERON:0002309	UBERON:0002794
+0	acoustic radiation	SNOMED:410726006	Label_snomed	Acoustic radiations structure (body structure)	Acoustic radiations
+0	acoustic radiation	SNOMED:410726006	synonyms	AR	Acoustic radiations ; Auditory radiations ; Fibrae geniculotemporales ; Geniculotemporal tract ; Radiatio acustica ; Acoustic radiations structure
+0	acoustic radiation	SNOMED:410726006	Incoming: subClassOf	Entire anterior commissure	Auditory radiation ; Entire anterior commissure
+0	acoustic radiation	UBERON:0022262	Label_uberon	acoustic radiation	auditory radiation
+0	acoustic radiation	UBERON:0022262	Synonyms_uberon	anterior cerebral commissure ; commissura anterior cerebri ; commissura rostralis ; AC ; anterior commissural nucleus ; commissura anterior ; commissura rostral ; paleocortical commissure ; precommisu	acoustic radiation ; auditory radiation ; auditory radiations ; geniculotemporal radiation ; geniculotemporal tract ; radiatio acustica
+0	acoustic radiation	UBERON:0022262	IRI	http://purl.obolibrary.org/obo/UBERON_0000935	http://purl.obolibrary.org/obo/UBERON_0022262
+0	acoustic radiation	UBERON:0022262	Annotation: database_cross_reference	BAMS:AC ; BAMS:AG ; BAMS:Ac ; BAMS:ac ; BIRNLEX:1557 ; BM:Tel-AC ; BTO:0002169 ; DHBA:10559 ; DMBA:17751 ; EMAPA:19038 ; FMA:61961 ; HBA:9221 ; MA:0002722 ; NCIT:C32086 ; NLX:144088 ; SCTID:279313001 	DHBA:266441583 ; FMA:62413 ; HBA:265504974 ; Wikipedia:Acoustic_radiation ; neuronames:2084
+1	anterior commissure	SNOMED:62872008	Label_snomed	Structure of anterior commissure (body structure)	anterior commissure
+1	anterior commissure	SNOMED:62872008	synonyms	AC ; ACOMM	Anterior commissure ; Structure of anterior commissure
+1	anterior commissure	SNOMED:62872008	Incoming: subClassOf		Entire anterior commissure
+1	anterior commissure	UBERON:0000935	Synonyms_uberon	anterior radiation of thalamus ; anterior thalamic radiation ; radiatio thalami anterior ; anterior thalamic radiation ; anterior thalamic radiations ; athf ; radiationes thalamicae anteriores	commissura rostral ; commissura rostralis ; AC ; anterior cerebral commissure ; anterior commissural nucleus ; commissura anterior cerebri ; commissura anterior ; paleocortical commissure ; precommisu
+1	anterior commissure	UBERON:0000935	IRI	http://purl.obolibrary.org/obo/UBERON_0034746	http://purl.obolibrary.org/obo/UBERON_0000935
+1	anterior commissure	UBERON:0000935	Annotation: database_cross_reference	DHBA:12043 ; FMA:76976 ; neuronames:1726	BAMS:AC ; BAMS:AG ; BAMS:Ac ; BAMS:ac ; BIRNLEX:1557 ; BM:Tel-AC ; BTO:0002169 ; DHBA:10559 ; DMBA:17751 ; EMAPA:19038 ; FMA:61961 ; HBA:9221 ; MA:0002722 ; NCIT:C32086 ; NLX:144088 ; SCTID:279313001 
+1	anterior commissure	UBERON:0000935	Incoming: part of - uberon		anterior commissure anterior part ; posterior part of anterior commissure ; commissura rostral, pars ventralis ; commissura rostral, pars dorsalis
+2	anterior thalamic radiation	UBERON:0034746	Synonyms_uberon	arcuate fascicle ; cerebral arcuate fasciculus ; fasciculus arcuatus ; AF ; ARF ; arcuate fascicle ; arcuate fasciculus ; fibrae arcuatae cerebri	anterior radiation of thalamus ; anterior thalamic radiation ; anterior thalamic radiations ; athf ; radiatio thalami anterior ; radiationes thalamicae anteriores
+2	anterior thalamic radiation	UBERON:0034746	IRI	http://purl.obolibrary.org/obo/UBERON_0035937	http://purl.obolibrary.org/obo/UBERON_0034746
+2	anterior thalamic radiation	UBERON:0034746	Annotation: database_cross_reference	DHBA:10569 ; FMA:276650 ; HBA:9231 ; Wikipedia:Arcuate_fasciculus ; neuronames:2063	DHBA:12043 ; FMA:76976 ; neuronames:1726
+3	arcuate fasciculus	UBERON:0035937	Synonyms_uberon	cerebellum peduncle	AF ; ARF ; arcuate fascicle ; arcuate fasciculus ; cerebral arcuate fasciculus ; fasciculus arcuatus ; fibrae arcuatae cerebri
+3	arcuate fasciculus	UBERON:0035937	IRI	http://purl.obolibrary.org/obo/UBERON_0007416	http://purl.obolibrary.org/obo/UBERON_0035937
+3	arcuate fasciculus	UBERON:0035937	Annotation: database_cross_reference	BAMS:cbp ; EMAPA:35213 ; FMA:272298 ; MA:0002742 ; MBA:752 ; NCIT:C88147 ; SCTID:362417003 ; UMLS:C0228515 ; neuronames:1207	DHBA:10569 ; FMA:276650 ; HBA:9231 ; Wikipedia:Arcuate_fasciculus ; neuronames:2063
+4	callosum forceps major	SNOMED:80049006	Label_snomed	Structure of forceps major (body structure)	forceps major
+4	callosum forceps major	SNOMED:80049006	synonyms	FMA ; FMAJ	Forceps major ; Occipital radiation of corpus callosum ; Posterior forceps ; Structure of forceps major
+4	callosum forceps major	SNOMED:80049006	Incoming: subClassOf	Entire cerebral cingulum	Entire cerebral cingulum ; Entire forceps major
+4	callosum forceps major	UBERON:0034676	Synonyms_uberon		ccs-ma ; corpus callosum, forceps major ; corpus callosum, posterior forceps (Arnold) ; forceps major corporis callosi ; forceps major of corpus callosum ; forceps major of the corpus callosum ; force
+4	callosum forceps major	UBERON:0034676	IRI		http://purl.obolibrary.org/obo/UBERON_0034676
+4	callosum forceps major	UBERON:0034676	Annotation: database_cross_reference		DHBA:12025 ; FMA:61949 ; SCTID:369201007 ; neuronames:197
+5	callosum forceps minor	SNOMED:42932006	Label_snomed	Structure of forceps minor (body structure)	forceps minor
+5	callosum forceps minor	SNOMED:42932006	synonyms	FMI ; FMIJ	Anterior forceps ; Forceps minor ; Parietal radiation of corpus callosum ; Structure of forceps minor
+5	callosum forceps minor	SNOMED:42932006	Incoming: subClassOf	Structure of columns of fornix ; Structure of crus of fornix ; Structure of fornix of hypothalamus ; Entire cerebral fornix ; Structure of hippocampal commissure	Entire cerebral fornix ; Entire forceps minor ; Structure of columns of fornix ; Structure of crus of fornix ; Structure of fornix of hypothalamus ; Structure of hippocampal commissure
+5	callosum forceps minor	UBERON:0034678	Label_uberon	callosum forceps minor	forceps minor of corpus callosum
+5	callosum forceps minor	UBERON:0034678	Synonyms_uberon		anterior forceps of corpus callosum ; anterior forceps of the corpus callosum ; anterior forceps ; corpus callosum, anterior forceps (Arnold) ; corpus callosum, anterior forceps ; corpus callosum, for
+5	callosum forceps minor	UBERON:0034678	IRI		http://purl.obolibrary.org/obo/UBERON_0034678
+5	callosum forceps minor	UBERON:0034678	Annotation: database_cross_reference		DHBA:12024 ; FMA:61944 ; SCTID:369199005 ; neuronames:192
+6	cingulum	SNOMED:37035000	Label_snomed	Structure of cerebral cingulum (body structure)	cerebral cingulum
+6	cingulum	SNOMED:37035000	synonyms	CCG ; CG	Cingulate fasciculus ; Cingulum ; Structure of cingulum ; Structure of cerebral cingulum
+6	cingulum	SNOMED:37035000	Incoming: subClassOf	Structure of tegmentum of midbrain ; Entire cerebral peduncle	Entire cerebral cingulum ; Entire cerebral peduncle ; Structure of tegmentum of midbrain
+6	cingulum	UBERON:0003961	Synonyms_uberon	CP ; cerebral peduncle ; peduncle of midbrain ; pedunculus cerebri ; cerebal peduncle ; cerebral peduncle (archaic) ; pedunculi cerebri ; pedunculus cerebralis ; pedunculus cerebri ; tegmentum	cingulum ; cingulum bundle ; cingulum of telencephalon ; neuraxis cingulum
+6	cingulum	UBERON:0003961	IRI	http://purl.obolibrary.org/obo/UBERON_0002623	http://purl.obolibrary.org/obo/UBERON_0003961
+6	cingulum	UBERON:0003961	Annotation: database_cross_reference	BAMS:cpd ; BIRNLEX:1202 ; BM:CP ; BTO:0004676 ; EFO:0001987 ; FMA:62394 ; MBA:924 ; MESH:D065850 ; NCIT:C32291 ; SCTID:362391000 ; UMLS:C0007793 ; Wikipedia:Cerebral_peduncle ; neuronames:487	BAMS:cg ; DHBA:10572 ; FMA:260761 ; FMA:83869 ; HBA:9240 ; MBA:940 ; SCTID:369084007 ; neuronames:1445 ; EMAPA:37828
+6	cingulum	UBERON:0003961	Incoming: subClassOf	Entire cerebral cingulum ; Entire cerebral peduncle ; Structure of tegmentum of midbrain	Entire cerebral cingulum ; Entire cerebral peduncle ; Structure of tegmentum of midbrain ; cingulate cortex cingulum ; hippocampus cortex cingulum ; temporal cortex cingulum
+12	commissure anterior	SNOMED:62872008	Label_snomed		anterior commissure
+12	commissure anterior	SNOMED:62872008	synonyms	ACOMM ; CA	Anterior commissure ; Structure of anterior commissure
+12	commissure anterior	SNOMED:62872008	Incoming: subClassOf	Entire corticopontine tract of pons	Entire anterior commissure ; Entire corticopontine tract of pons
+12	commissure anterior	UBERON:0000935	Synonyms_uberon		commissura rostral ; commissura rostralis ; AC ; anterior cerebral commissure ; anterior commissural nucleus ; commissura anterior cerebri ; commissura anterior ; paleocortical commissure ; precommisu
+12	commissure anterior	UBERON:0000935	IRI		http://purl.obolibrary.org/obo/UBERON_0000935
+12	commissure anterior	UBERON:0000935	Annotation: database_cross_reference		BAMS:AC ; BAMS:AG ; BAMS:Ac ; BAMS:ac ; BIRNLEX:1557 ; BM:Tel-AC ; BTO:0002169 ; DHBA:10559 ; DMBA:17751 ; EMAPA:19038 ; FMA:61961 ; HBA:9221 ; MA:0002722 ; NCIT:C32086 ; NLX:144088 ; SCTID:279313001 
+12	commissure anterior	UBERON:0000935	Incoming: part of - uberon		anterior commissure anterior part ; posterior part of anterior commissure ; commissura rostral, pars ventralis ; commissura rostral, pars dorsalis
+13	corpus callosum	SNOMED:362354006	Label_snomed	Entire corpus callosum (body structure)	Entire corpus callosum
+13	corpus callosum	SNOMED:362354006	synonyms	CC	Entire corpus callosum
+13	corpus callosum	UBERON:0002336	Annotation: database_cross_reference		BAMS:CC ; BAMS:cc ; BIRNLEX:1087 ; BM:Tel-CC ; BTO:0000615 ; CALOHA:TS-0180 ; DHBA:10561 ; EFO:0001390 ; EMAPA:35253 ; EV:0100305 ; FMA:86464 ; GAID:683 ; HBA:9222 ; MA:0000188 ; MAT:0000286 ; MBA:776
+13	corpus callosum	UBERON:0002336	Incoming: part of - uberon		tapetum of corpus callosum ; body of corpus callosum ; genu of corpus callosum ; rostrum of corpus callosum ; splenium of the corpus callosum ; forceps minor of corpus callosum ; radiation of corpus c
+20	corpus callosum genu	SNOMED:279310003	Label_snomed	Genu of corpus callosum (body structure)	Entire genu of corpus callosum
+20	corpus callosum genu	SNOMED:279310003	synonyms	CC_2 ; genu CC	Entire genu of corpus callosum
+20	corpus callosum genu	UBERON:0015599	Synonyms_uberon		corpus callosum genu ; corpus callosum, genu ; genu corporis callosi ; genu corpus callosi ; genu of corpus callosum ; genu of the corpus callosum ; genu ; rostrum of corpus callosum (Mai)
+20	corpus callosum genu	UBERON:0015599	IRI		http://purl.obolibrary.org/obo/UBERON_0015599
+20	corpus callosum genu	UBERON:0015599	Annotation: database_cross_reference		DHBA:10563 ; FMA:61946 ; HBA:9223 ; MBA:1108 ; NCIT:C32675 ; NLX:144462 ; NeuroNamesCNID:176 ; SCTID:279310003 ; UMLS:C0152321 ; Wikipedia:Genu_of_the_corpus_callosum ; neuronames:194
+20	corpus callosum genu	UBERON:0015599	Incoming: part of - uberon		forceps minor of corpus callosum
+21	corpus callosum isthmus	SNOMED:369199005	Label_snomed	Isthmus of corpus callosum (body structure)	Entire forceps minor
+21	corpus callosum isthmus	SNOMED:369199005	synonyms	CC_6	Entire forceps minor
+21	corpus callosum isthmus	UBERON:0009835	Label_uberon	isthmus of corpus callosum	anterior cingulate cortex
+21	corpus callosum isthmus	UBERON:0009835	Synonyms_uberon	anterior forceps ; anterior forceps of corpus callosum ; forceps frontalis ; forceps minor ; frontal forceps ; minor forceps ; anterior forceps ; anterior forceps of the corpus callosum ; corpus callo	ACC
+21	corpus callosum isthmus	UBERON:0009835	IRI	http://purl.obolibrary.org/obo/UBERON_0034678	http://purl.obolibrary.org/obo/UBERON_0009835
+21	corpus callosum isthmus	UBERON:0009835	Annotation: database_cross_reference	DHBA:12024 ; FMA:61944 ; SCTID:369199005 ; neuronames:192	BIRNLEX:936 ; BTO:0004249 ; FMA:271599 ; Wikipedia:Anterior_cingulate_cortex
+21	corpus callosum isthmus	UBERON:0009835	Incoming: part of - uberon		anterior cingulate gyrus ; Brodmann (1909) area 24 ; rostral anterior cingulate cortex ; caudal anterior cingulate cortex
+24	corpus callosum rostrum	UBERON:0015703	Synonyms_uberon		corpus callosum rostrum ; corpus callosum, rostrum ; rostrum corporis callosi ; rostrum corpus callosi ; rostrum of corpus callosum ; rostrum of the corpus callosum ; rostrum
+24	corpus callosum rostrum	UBERON:0015703	IRI		http://purl.obolibrary.org/obo/UBERON_0015703
+24	corpus callosum rostrum	UBERON:0015703	Annotation: database_cross_reference		DHBA:10562 ; FMA:61945 ; HBA:9226 ; MBA:979 ; NCIT:C33496 ; NeuroNamesCNID:175 ; SCTID:279311004 ; UMLS:C0152322 ; Wikipedia:Rostrum_of_corpus_callosum ; neuronames:193
+25	corpus callosum splenium	UBERON:0022430	Label_uberon	splenium of corpus callosum	hippocampus cortex cingulum
+25	corpus callosum splenium	UBERON:0022430	Synonyms_uberon	external sagittal stratum ; fasciculus fronto-occipitalis inferior ; fasciculus longitudinalis inferior ; ilf	cingulum (Ammon's horn) ; cingulum (hippocampus) ; cingulum bundle in hippocampus
+25	corpus callosum splenium	UBERON:0022430	IRI	http://purl.obolibrary.org/obo/UBERON_0034743	http://purl.obolibrary.org/obo/UBERON_0022430
+26	corticopontine tract	SNOMED:1296738007	Label_snomed	Corticopontine tract (body structure)	corticospinal tract
+26	corticopontine tract	SNOMED:1296738007	synonyms	CPT ; FPT	Corticospinal tract ; Structure of corticospinal tract
+26	corticopontine tract	SNOMED:1296738007	Incoming: subClassOf		Corticospinal tract in brainstem ; Corticospinal tract of internal capsule ; Entire corticospinal tract ; Structure of lateral corticospinal tract ; Structure of spinal ventral corticospinal tract
+27	corticospinal tract	UBERON:0002707	Synonyms_uberon		corticospinal fibers ; fasciculus cerebro-spinalis ; fasciculus pyramidalis ; fibrae corticospinales ; pyramid (Willis) ; pyramidal tract ; tractus cortico-spinalis ; tractus corticospinalis ; tractus
+27	corticospinal tract	UBERON:0002707	IRI		http://purl.obolibrary.org/obo/UBERON_0002707
+27	corticospinal tract	UBERON:0002707	Annotation: database_cross_reference		BAMS:P ; BIRNLEX:1464 ; BM:CST ; BM:Me-PyT ; DHBA:12776 ; DMBA:17756 ; EMAPA:36600 ; FMA:72634 ; GAID:702 ; HBA:265505574 ; MBA:190 ; MBA:784 ; MESH:D011712 ; SCTID:362325000 ; Wikipedia:Corticospinal
+27	corticospinal tract	UBERON:0002707	Incoming: part of - uberon		lateral corticospinal tract ; pyramidal decussation ; ventral corticospinal tract
+31	extreme capsule	UBERON:0014528	Synonyms_uberon	olfactory peduncle ; olfactory stalk ; pedunclulus olfactorius ; tractus olfactorium ; tractus olfactorius	band of Baillarger ; capsula extrema
+31	extreme capsule	UBERON:0014528	IRI	http://purl.obolibrary.org/obo/UBERON_0002265	http://purl.obolibrary.org/obo/UBERON_0014528
+31	extreme capsule	UBERON:0014528	Annotation: database_cross_reference	BAMS:olf ; BIRNLEX:1663 ; BTO:0003647 ; DHBA:12073 ; EMAPA:35615 ; FMA:77626 ; HBA:9302 ; MA:0000975 ; NCIT:C33207 ; SCTID:362356008 ; UMLS:C0162435 ; Wikipedia:Olfactory_tract ; neuronames:283	BAMS:ex ; BAMS:exc ; DHBA:10574 ; FMA:61960 ; HBA:9246 ; NLXANAT:1010014 ; SCTID:279301006 ; Wikipedia:Extreme_capsule ; neuronames:254
+32	fornix	SNOMED:87463005	Label_snomed	Fornix (body structure)	Cerebral fornix
+32	fornix	SNOMED:87463005	synonyms	FX	Fornix ; Cerebral fornix structure
+32	fornix	SNOMED:87463005	Incoming: subClassOf	Entire optic radiation	Entire cerebral fornix ; Entire optic radiation ; Structure of columns of fornix ; Structure of crus of fornix ; Structure of fornix of hypothalamus ; Structure of hippocampal commissure
+32	fornix	UBERON:0000022	Label_uberon	fornix	feather
+32	fornix	UBERON:0000022	IRI	http://purl.obolibrary.org/obo/UBERON_0022264	http://purl.obolibrary.org/obo/UBERON_0000022
+32	fornix	UBERON:0000022	Annotation: database_cross_reference	DHBA:266441621 ; FMA:61941 ; HBA:9311 ; SCTID:280953008 ; Wikipedia:Optic_radiation ; neuronames:1440	BTO:0000447 ; EFO:0000955 ; GAID:1214 ; MAT:0000156 ; MESH:D005241 ; SCTID:410027006 ; Wikipedia:Feather
+32	fornix	UBERON:0000022	Incoming: subClassOf	Entire cerebral fornix ; Entire optic radiation ; Structure of columns of fornix ; Structure of crus of fornix ; Structure of fornix of hypothalamus ; Structure of hippocampal commissure	Entire cerebral fornix ; Entire optic radiation ; Structure of columns of fornix ; Structure of crus of fornix ; Structure of fornix of hypothalamus ; Structure of hippocampal commissure ; auricular f
+32	fornix	UBERON:0000022	Incoming: part of - uberon	Meyer's loop of optic radiation	afterfeather ; feather barb ; feather barbule ; feather shaft ; feather barbicel
+36	inferior cerebellar peduncle	UBERON:0002163	Synonyms_uberon	fasciculus occipitofrontalis superior ; fasciculus subcallosus ; superior occipitofrontal fasciculus ; subcallosal bundle ; superior fronto-occipital bundle ; superior fronto-occipital fasciculus ; su	corpus restiforme ; crus cerebelli ad medullam oblongatam ; crus medullo-cerebellare ; inferior cerebellar peduncle (Ridley) ; inferior cerebellar peduncle (restiform body) ; inferior peduncle ; pedun
+36	inferior cerebellar peduncle	UBERON:0002163	IRI	http://purl.obolibrary.org/obo/UBERON_0022250	http://purl.obolibrary.org/obo/UBERON_0002163
+36	inferior cerebellar peduncle	UBERON:0002163	Annotation: database_cross_reference	DHBA:12071 ; FMA:77634 ; FMA:77637 ; HBA:265505338 ; SCTID:369086009 ; neuronames:2141	BAMS:icp ; BIRNLEX:1691 ; BM:RB ; DHBA:12741 ; DMBA:17772 ; FMA:72615 ; HBA:9291 ; MA:0002744 ; MBA:1123 ; NIFSTD_RETIRED:birnlex_1645 ; SCTID:362418008 ; Wikipedia:Inferior_cerebellar_peduncle ; UMLS
+36	inferior cerebellar peduncle	UBERON:0002163	Incoming: part of - uberon		juxtarestiform body
+37	inferior fronto-occipital fasciculus	UBERON:0022271	Label_uberon	inferior fronto-occipital fasciculus	corticopontine fibers
+37	inferior fronto-occipital fasciculus	UBERON:0022271	Synonyms_uberon		corticopontine fibers of pons ; cortico-pontine fibers ; cortico-pontine fibers, pontine part ; corticopontine fibers set ; corticopontine fibers ; corticopontine fibres ; corticopontine ; fibrae cort
+37	inferior fronto-occipital fasciculus	UBERON:0022271	IRI		http://purl.obolibrary.org/obo/UBERON_0022271
+37	inferior fronto-occipital fasciculus	UBERON:0022271	Annotation: database_cross_reference		DHBA:266441721 ; FMA:75190 ; HBA:265505490 ; SCTID:91366009 ; Wikipedia:Corticopontine_fibers ; neuronames:1322
+38	inferior longitudinal fasciculus	UBERON:0034743	Synonyms_uberon	superior longitudinal fascicle	external sagittal stratum ; fasciculus fronto-occipitalis inferior ; fasciculus longitudinalis inferior ; ilf
+38	inferior longitudinal fasciculus	UBERON:0034743	IRI	http://purl.obolibrary.org/obo/UBERON_0022246	http://purl.obolibrary.org/obo/UBERON_0034743
+38	inferior longitudinal fasciculus	UBERON:0034743	Annotation: database_cross_reference	DHBA:10592 ; FMA:77631 ; HBA:9281 ; SCTID:369082006 ; Wikipedia:Superior_longitudinal_fasciculus ; neuronames:2080	DHBA:10580 ; FMA:77632 ; HBA:9260 ; NeuroNamesCNID:538 ; SCTID:369085008 ; Wikipedia:Inferior_longitudinal_fasciculus ; neuronames:1443
+39	Internal capsule	UBERON:0001887	Label_uberon	internal capsule	internal capsule of telencephalon
+39	Internal capsule	UBERON:0001887	Synonyms_uberon		internal capsule radiations ; brain internal capsule ; capsula interna ; internal capsule
+39	Internal capsule	UBERON:0001887	IRI		http://purl.obolibrary.org/obo/UBERON_0001887
+39	Internal capsule	UBERON:0001887	Annotation: database_cross_reference		BAMS:ic ; BAMS:int ; BIRNLEX:1659 ; BM:IC ; DHBA:10581 ; DMBA:17770 ; EMAPA:18206 ; EMAPA:35437 ; FMA:61950 ; GAID:685 ; HBA:9263 ; MA:0002748 ; MBA:6 ; MESH:D020772 ; NCIT:C13082 ; PBA:10102 ; SCTID:
+39	Internal capsule	UBERON:0001887	Incoming: part of - uberon		limb of internal capsule of telencephalon ; posterior limb of internal capsule
+41	posterior limb of internal capsule	UBERON:0014527	Synonyms_uberon	crus posterius capsulae internae ; posterior internal capsule	posterior internal capsule ; capsula interna, pars posterior ; crus posterius capsulae internae ; posterior limb of the internal capsule ; posterior limb
+41	posterior limb of internal capsule	UBERON:0014527	Annotation: database_cross_reference	FMA:61953 ; neuronames:202	BAMS:pic ; DHBA:10584 ; FMA:61954 ; NLX:144258 ; SCTID:279296006 ; Wikipedia:Posterior_limb_of_internal_capsule ; neuronames:201
+41	posterior limb of internal capsule	UBERON:0014527	Incoming: part of - uberon		retrolenticular part of internal capsule
+43	medial forebrain bundle	UBERON:0001882	Label_uberon	medial forebrain bundle	nucleus accumbens
+43	medial forebrain bundle	UBERON:0001882	Synonyms_uberon		accumbens nucleus ; colliculus nuclei caudati ; colliculus of caudate nucleus ; nucleus accumbens septi
+43	medial forebrain bundle	UBERON:0001882	IRI		http://purl.obolibrary.org/obo/UBERON_0001882
+43	medial forebrain bundle	UBERON:0001882	Annotation: database_cross_reference		BAMS:ACB ; BAMS:ACC ; BAMS:Acb ; BIRNLEX:727 ; BM:Ac ; BTO:0001862 ; DHBA:10339 ; EFO:0000906 ; EHDAA2:0004707 ; EMAPA:32789 ; FMA:61889 ; GAID:672 ; HBA:4290 ; MA:0000892 ; MAT:0000512 ; MBA:56 ; MES
+43	medial forebrain bundle	UBERON:0001882	Incoming: part of - uberon		core of nucleus accumbens ; shell of nucleus accumbens
+44	medial lemniscus	SNOMED:30114003	Label_snomed		Medial lemniscus
+44	medial lemniscus	SNOMED:30114003	synonyms	ML	Lemniscus medialis ; Medial lemniscus ; Medial lemniscus structure
+44	medial lemniscus	UBERON:0003002	IRI		http://purl.obolibrary.org/obo/UBERON_0003002
+45	middle cerebellar peduncle	UBERON:0002152	Synonyms_uberon	tapetum ; tapetum corporis callosi	brachium pontis (stem of middle cerebellar peduncle) ; brachium pontis ; crus cerebelli ad pontem ; crus ponto-cerebellare ; mid-cerebellar peduncle ; pedunculus cerebellaris medialis ; pedunculus cer
+45	middle cerebellar peduncle	UBERON:0002152	IRI	http://purl.obolibrary.org/obo/UBERON_0000373	http://purl.obolibrary.org/obo/UBERON_0002152
+45	middle cerebellar peduncle	UBERON:0002152	Annotation: database_cross_reference	DHBA:12027 ; FMA:77208 ; HBA:265504966 ; SCTID:279312006 ; Wikipedia:Tapetum_of_corpus_callosum ; neuronames:1596	BAMS:BP ; BAMS:bp ; BAMS:mcp ; BIRNLEX:1529 ; BM:Pons-BP ; DHBA:12768 ; FMA:72515 ; HBA:9294 ; MA:0002745 ; MBA:78 ; NIFSTD_RETIRED:birnlex_1699 ; SCTID:279219000 ; Wikipedia:Middle_cerebellar_peduncl
+45	middle cerebellar peduncle	UBERON:0002152	Incoming: part of - uberon		pontocerebellar tract
+46	medial longitudinal fasciculus	SNOMED:28390009	Label_snomed		Medial longitudinal fasciculus
+46	medial longitudinal fasciculus	SNOMED:28390009	synonyms	MLF ; MdLF	MLF-Medial longitudinal fasciculus ; Medial longitudinal fasciculus ; Medial longitudinal fasciculus structure
+46	medial longitudinal fasciculus	SNOMED:28390009	Incoming: subClassOf	Entire uncinate fasciculus	Entire medial longitudinal fasciculus ; Entire uncinate fasciculus ; Medulla oblongata medial longitudinal fasciculus structure ; Structure of pontine portion of medial longitudinal fasciculus
+46	medial longitudinal fasciculus	UBERON:0002794	Label_uberon	middle longitudinal fasciculus	medial longitudinal fasciculus of pons
+46	medial longitudinal fasciculus	UBERON:0002794	Synonyms_uberon	cerebral uncinate fasciculus ; cerebellospinal tract ; fasciculus fastigio-vestibularis ; fastigiobulbar tract ; hook bundle of Russell ; russell's fasciculus ; tractus cerebello-bulbaris ; tractus un	fasciculus longitudinalis medialis (pontis) ; medial longitudinal fasciculus of pons of varolius ; medial longitudinal fasciculus of the pons ; pons medial longitudinal fasciculus ; pons of varolius m
+46	medial longitudinal fasciculus	UBERON:0002794	IRI	http://purl.obolibrary.org/obo/UBERON_0003044	http://purl.obolibrary.org/obo/UBERON_0002794
+46	medial longitudinal fasciculus	UBERON:0002794	Annotation: database_cross_reference	BAMS:unc ; BIRNLEX:983 ; DHBA:10594 ; FMA:77636 ; MESH:D000083382 ; SCTID:369083001 ; UMLS:C0228271 ; Wikipedia:Uncinate_fasciculus ; neuronames:597	BAMS:mlfp ; BIRNLEX:1708 ; FMA:72493 ; UMLS:C0228440 ; neuronames:600
+49	optic radiation	SNOMED:70105001	Label_snomed	Optic radiation (body structure)	optic radiation
+49	optic radiation	SNOMED:70105001	synonyms	OR	Geniculocalcarine tract ; Optic radiation ; Structure of optic radiation
+49	optic radiation	SNOMED:70105001	Incoming: subClassOf	Entire vertical occipital fasciculus	Entire optic radiation ; Entire vertical occipital fasciculus
+49	optic radiation	UBERON:0002934	Label_uberon	optic radiation	ventral oculomotor nucleus
+49	optic radiation	UBERON:0002934	Synonyms_uberon		V3 ; nucleus nervi oculomotorii ventrolateralis ; nucleus nervi oculomotorii, pars ventralis ; ventral nucleus of oculomotor nuclear complex ; ventral oculomotor cell column
+49	optic radiation	UBERON:0002934	IRI		http://purl.obolibrary.org/obo/UBERON_0002934
+49	optic radiation	UBERON:0002934	Annotation: database_cross_reference		BIRNLEX:713 ; DHBA:12205 ; FMA:72422 ; HBA:9038 ; UMLS:C0175380 ; neuronames:496
+60	superior cerebellar peduncle	UBERON:0002250	Label_uberon	superior cerebellar peduncle	popliteal artery
+60	superior cerebellar peduncle	UBERON:0002250	Synonyms_uberon		arteria poplitea
+60	superior cerebellar peduncle	UBERON:0002250	IRI		http://purl.obolibrary.org/obo/UBERON_0002250
+60	superior cerebellar peduncle	UBERON:0002250	Annotation: database_cross_reference		FMA:77155 ; GAID:504 ; MA:0002021 ; MESH:D011150 ; NCIT:C33337 ; SCTID:181350008 ; Wikipedia:Popliteal_artery ; EMAPA:37109 ; UMLS:C0032649
+61	superior longitudinal fasciculus	SNOMED:88442005	Label_snomed	Superior longitudinal fasciculus (body structure)	Corpus callosum
+61	superior longitudinal fasciculus	SNOMED:88442005	synonyms	SLF	CC - Corpus callosum ; Corpus callosum ; Corpus callosum structure
+61	superior longitudinal fasciculus	SNOMED:88442005	Incoming: subClassOf		Corpus callosum part ; Entire corpus callosum
+61	superior longitudinal fasciculus	UBERON:0014528	Label_uberon	superior longitudinal fasciculus	extreme capsule
+61	superior longitudinal fasciculus	UBERON:0014528	Synonyms_uberon		band of Baillarger ; capsula extrema
+61	superior longitudinal fasciculus	UBERON:0014528	IRI		http://purl.obolibrary.org/obo/UBERON_0014528
+61	superior longitudinal fasciculus	UBERON:0014528	Annotation: database_cross_reference		BAMS:ex ; BAMS:exc ; DHBA:10574 ; FMA:61960 ; HBA:9246 ; NLXANAT:1010014 ; SCTID:279301006 ; Wikipedia:Extreme_capsule ; neuronames:254
+73	uncinate fasciculus	SNOMED:85637007	Label_snomed	Uncinate fasciculus (body structure)	Internal capsule
+73	uncinate fasciculus	SNOMED:85637007	synonyms	UF ; UNC	IC - Internal capsule ; Internal capsule of brain ; Internal capsule structure of brain ; Internal capsule ; Internal capsule structure
+73	uncinate fasciculus	SNOMED:85637007	Incoming: subClassOf		Entire internal capsule ; Part of internal capsule of brain
+73	uncinate fasciculus	UBERON:0003044	IRI		http://purl.obolibrary.org/obo/UBERON_0003044
+74	ventral amygdalofugal pathway	UBERON:0002981	Label_uberon	ventral amygdalofugal pathway	pulvinar nucleus
+74	ventral amygdalofugal pathway	UBERON:0002981	Synonyms_uberon		Pul ; nuclei pulvinares ; nucleus pulvinaris thalami ; nucleus pulvinaris ; posterior nucleus (P) ; pulvinar nuclei ; pulvinar thalami ; pulvinar thalamus ; pulvinar
+74	ventral amygdalofugal pathway	UBERON:0002981	IRI		http://purl.obolibrary.org/obo/UBERON_0002981
+74	ventral amygdalofugal pathway	UBERON:0002981	Annotation: database_cross_reference		BAMS:PUL ; BAMS:Pul ; BAMS:Pulv ; BIRNLEX:824 ; BM:Die-Th-Pl ; BTO:0004352 ; DHBA:10409 ; EV:0100213 ; FMA:62178 ; GAID:662 ; MESH:D020649 ; SCTID:279157006 ; Wikipedia:Pulvinar_nuclei ; UMLS:C0152347
+74	ventral amygdalofugal pathway	UBERON:0002981	Incoming: part of - uberon		lateral pulvinar nucleus ; medial pulvinar nucleus ; oral pulvinar nucleus ; inferior pulvinar nucleus
+75	vertical occipital fasciculus	SNOMED:80434005	Label_snomed		vertical occipital fasciculus
+75	vertical occipital fasciculus	SNOMED:80434005	synonyms	VOF	Perpendicular fasciculus ; Vertical occipital fasciculus ; Structure of vertical occipital fasciculus
+75	vertical occipital fasciculus	SNOMED:80434005	Incoming: subClassOf		Entire vertical occipital fasciculus
+78	cerebral peduncle	SNOMED:362391000	Label_snomed	Cerebral peduncle structure	Entire cerebral peduncle
+78	cerebral peduncle	SNOMED:362391000	synonyms	CP ; CRU	Entire cerebral peduncle
+78	cerebral peduncle	UBERON:0002594	Label_uberon	cerebral peduncle	dentatothalamic tract
+78	cerebral peduncle	UBERON:0002594	Synonyms_uberon	pedunculus cerebri ; crus cerebri	DT ; dentatothalamic fibers ; tractus dentatothalamicus
+78	cerebral peduncle	UBERON:0002594	Annotation: database_cross_reference	FMA:62394 ; SCTID:362391000	BAMS:dt ; BIRNLEX:1104 ; DHBA:12357 ; FMA:72462 ; Wikipedia:Dentatothalamic_tract ; UMLS:C0175411 ; neuronames:534
+79	corona radiata	UBERON:0004682	Label_uberon	corona radiata	corona radiata of neuraxis
+79	corona radiata	UBERON:0004682	Annotation: database_cross_reference	FMA:83981 ; neuronames:447 ; DHBA:12030	DHBA:12030 ; FMA:18661 ; HBA:265505046 ; NLXANAT:090903 ; Wikipedia:Corona_radiata ; neuronames:1446
+79	corona radiata	UBERON:0004682	Incoming: part of - uberon		anterior corona radiata ; superior corona radiata ; posterior corona radiata
+83	posterior thalamic radiation	UBERON:0034747	Synonyms_uberon	posterior thalamic radiation	posterior thalamic radiation ; posterior thalamic radiations ; pthr ; radiatio posterior thalami ; radiatio thalamica posterior ; radiationes thalamicae posteriores
+83	posterior thalamic radiation	UBERON:0034747	IRI	http://purl.obolibrary.org/obo/UBERON_0022264	http://purl.obolibrary.org/obo/UBERON_0034747
+83	posterior thalamic radiation	UBERON:0034747	Annotation: database_cross_reference	FMA:276650 ; SCTID:369201007	DHBA:12053 ; FMA:76982 ; neuronames:2083
+85	external capsule	SNOMED:279300007	Label_snomed	External capsule (body structure)	External capsule
+85	external capsule	SNOMED:279300007	synonyms	EC	Structure of external capsule ; External capsule
+85	external capsule	SNOMED:279300007	Incoming: subClassOf		Entire external capsule
+85	external capsule	UBERON:0004545	Label_uberon	external capsule	external capsule of telencephalon
+85	external capsule	UBERON:0004545	Synonyms_uberon	capsula externa	brain external capsule ; capsula externa ; corpus callosum external capsule ; external capsule
+85	external capsule	UBERON:0004545	Annotation: database_cross_reference	FMA:61959 ; SCTID:279300007 ; neuronames:253	BAMS:EC ; BAMS:ec ; DHBA:10573 ; DMBA:17765 ; EMAPA:35331 ; FMA:61959 ; HBA:9243 ; MA:0002896 ; MBA:579 ; NCIT:C32550 ; NLXANAT:1010013 ; SCTID:279300007 ; Wikipedia:External_capsule ; neuronames:253 
+88	tapetum	UBERON:0000373	Synonyms_uberon	tapetum corporis callosi	tapetum corporis callosi ; tapetum
+88	tapetum	UBERON:0000373	Annotation: database_cross_reference	FMA:77208 ; SCTID:279312006 ; neuronames:1596	DHBA:12027 ; FMA:77208 ; HBA:265504966 ; SCTID:279312006 ; Wikipedia:Tapetum_of_corpus_callosum ; neuronames:1596

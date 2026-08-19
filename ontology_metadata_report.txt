@@ -1,0 +1,1488 @@
+Ontology Metadata Extraction Report
+======================================================================
+Tracts processed: 122
+
+Lookup status summary:
+  ok                   72
+  missing_id           49
+  not_found            1
+
+SNOMED IDs validated against UBERON xrefs : 28
+SNOMED IDs NOT found in UBERON xrefs      : 23
+FMA IDs validated against UBERON xrefs    : 54
+FMA IDs NOT found in UBERON xrefs         : 9
+
+──────────────────────────────────────────────────────────────────────
+Per-tract detail
+──────────────────────────────────────────────────────────────────────
+
+▶ anterior commissure
+  UBERON ID   : UBERON:0000935
+  UBERON label: anterior commissure
+  Status      : ok
+  Definition  : A bundle of myelinated nerve fibers passing transversely through the lamina terminalis and connecting symmetrical parts 
+  Exact syns  : anterior cerebral commissure | commissura anterior cerebri | commissura rostralis
+  Related syns: AC | anterior commissural nucleus | commissura anterior | commissura rostral | paleocortical commissure | precommisure | rostral commissure
+  SNOMED ID   : SNOMED:62872008  validated=False
+  SNOMED xrefs: SCTID:279313001 | SCTID:369119009
+  FMA ID      : fma61961  validated=True
+  FMA xrefs   : FMA:61961
+  All xrefs   : BAMS:AC | BAMS:Ac | BAMS:ac | BAMS:AG | BIRNLEX:1557 | BM:Tel-AC | BTO:0002169 | DHBA:10559 | DMBA:17751 | EMAPA:19038 |
+
+▶ corpus callosum
+  UBERON ID   : UBERON:0002336
+  UBERON label: corpus callosum
+  Status      : ok
+  Definition  : White matter structure containing massive numbers of commissural fibers connecting cortical areas in the two cerebral he
+  SNOMED ID   : SNOMED:362354006  validated=True
+  SNOMED xrefs: SCTID:362354006
+  FMA ID      : fma86464  validated=True
+  FMA xrefs   : FMA:86464
+  All xrefs   : BAMS:CC | BAMS:cc | BIRNLEX:1087 | BM:Tel-CC | BTO:0000615 | CALOHA:TS-0180 | DHBA:10561 | EFO:0001390 | EMAPA:35253 | E
+
+▶ cingulum
+  UBERON ID   : UBERON:0003961
+  UBERON label: cingulum of brain
+  Status      : ok
+  Definition  : The white matter fiber bundle that projects from the cingulate gyrus to the entorhinal cortex in the brain.
+  Exact syns  : cingulum bundle
+  Related syns: cingulum of telencephalon | neuraxis cingulum
+  Broad syns  : cingulum
+  SNOMED ID   : SNOMED:37035000  validated=False
+  SNOMED xrefs: SCTID:369084007
+  FMA ID      : fma260761  validated=True
+  FMA xrefs   : FMA:260761 | FMA:83869
+  All xrefs   : BAMS:cg | DHBA:10572 | EMAPA:37828 | FMA:260761 | FMA:83869 | HBA:9240 | MBA:940 | neuronames:1445 | SCTID:369084007
+
+▶ external capsule
+  UBERON ID   : UBERON:0004545
+  UBERON label: external capsule of telencephalon
+  Status      : ok
+  Definition  : Any of the series of white matter fiber tracts in the brain that run between the most lateral segment of the lentiform n
+  Related syns: capsula externa | corpus callosum external capsule
+  Broad syns  : brain external capsule | external capsule
+  SNOMED ID   : SNOMED:279300007  validated=True
+  SNOMED xrefs: SCTID:279300007
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : FMA:61959
+  All xrefs   : BAMS:EC | BAMS:ec | DHBA:10573 | DMBA:17765 | EMAPA:35331 | FMA:61959 | HBA:9243 | MA:0002896 | MBA:579 | NCIT:C32550 | 
+
+▶ extreme capsule
+  UBERON ID   : UBERON:0014528
+  UBERON label: extreme capsule
+  Status      : ok
+  Definition  : Thin band of fibers separating the claustrum from the insular cortex.
+  Related syns: band of Baillarger | capsula extrema
+  SNOMED ID   : SNOMED:279301006  validated=True
+  SNOMED xrefs: SCTID:279301006
+  FMA ID      : fma61960  validated=True
+  FMA xrefs   : FMA:61960
+  All xrefs   : BAMS:ex | BAMS:exc | DHBA:10574 | FMA:61960 | HBA:9246 | neuronames:254 | NLXANAT:1010014 | SCTID:279301006 | Wikipedia:
+
+▶ Internal capsule
+  UBERON ID   : UBERON:0001887
+  UBERON label: internal capsule of telencephalon
+  Status      : ok
+  Definition  : White matter regional part of brain which is flanked by nuclear masses, consisting of both afferent and efferent fibers 
+  Exact syns  : brain internal capsule | internal capsule radiations
+  Related syns: capsula interna
+  Broad syns  : internal capsule
+  SNOMED ID   : SNOMED:730172000  validated=False
+  SNOMED xrefs: SCTID:85637007
+  FMA ID      : fma61950  validated=True
+  FMA xrefs   : FMA:61950
+  All xrefs   : BAMS:ic | BAMS:int | BIRNLEX:1659 | BM:IC | DHBA:10581 | DMBA:17770 | EMAPA:18206 | EMAPA:35437 | FMA:61950 | GAID:685 |
+
+▶ medial longitudinal fasciculus
+  UBERON ID   : UBERON:0002309
+  UBERON label: medial longitudinal fasciculus
+  Status      : ok
+  Definition  : The medial longitudinal fasciculus (MLF) is a pair of crossed fiber tracts, one on each side of the brainstem. These bun
+  Related syns: fasciculus longitudinalis medialis | medial longitudinal fascicle | MLF
+  SNOMED ID   : SNOMED:28390009  validated=False
+  SNOMED xrefs: SCTID:362397001
+  FMA ID      : fma83846  validated=True
+  FMA xrefs   : FMA:83846
+  All xrefs   : BAMS:mlf | BTO:0003951 | DHBA:12764 | FMA:83846 | HBA:9351 | MBA:62 | neuronames:1588 | SCTID:362397001 | TAO:0000543 | 
+
+▶ olfactory tract
+  UBERON ID   : UBERON:0002265
+  UBERON label: olfactory tract
+  Status      : ok
+  Definition  : White matter tract that contains projections from the olfactory bulb to other parts of the brain.
+  Related syns: olfactory peduncle | olfactory stalk | pedunclulus olfactorius | tractus olfactorium | tractus olfactorius
+  SNOMED ID   : SNOMED:362356008  validated=True
+  SNOMED xrefs: SCTID:362356008
+  FMA ID      : fma77626  validated=True
+  FMA xrefs   : FMA:77626
+  All xrefs   : BAMS:olf | BIRNLEX:1663 | BTO:0003647 | DHBA:12073 | EMAPA:35615 | FMA:77626 | HBA:9302 | MA:0000975 | NCIT:C33207 | neu
+
+▶ corticospinal tract
+  UBERON ID   : UBERON:0002707
+  UBERON label: corticospinal tract
+  Status      : ok
+  Definition  : The corticospinal fibers that arise from the pyramidal cells within the cerebral cortex layer V of the precentral motor 
+  Exact syns  : corticospinal fibers | fasciculus cerebro-spinalis | fasciculus pyramidalis | fibrae corticospinales | pyramid (Willis) | tractus cortico-spinalis | tractus corticospinalis | tractus pyramidalis
+  Broad syns  : pyramidal tract
+  SNOMED ID   : SNOMED:1296739004  validated=False
+  SNOMED xrefs: SCTID:362325000
+  FMA ID      : fma265580  validated=False
+  FMA xrefs   : FMA:72634
+  All xrefs   : BAMS:P | BIRNLEX:1464 | BM:CST | BM:Me-PyT | BTO:0006132 | DHBA:12776 | DMBA:17756 | EMAPA:36600 | FMA:72634 | GAID:702 
+
+▶ uncinate fasciculus
+  UBERON ID   : UBERON:0003044
+  UBERON label: uncinate fasciculus
+  Status      : ok
+  Definition  : Pathway arising from the fastigial nucleus to the vestibular nuclei, reticular formation, motor neurons of brainstem and
+  Exact syns  : cerebral uncinate fasciculus
+  Related syns: cerebellospinal tract | fasciculus fastigio-vestibularis | fastigiobulbar tract | hook bundle of Russell | russell's fasciculus | tractus cerebello-bulbaris | tractus uncinatus | tractus uncinatus (Lewandowsky) | uncinate bundle of Russell | uncinate fascicle (Russell) | uncinate fasciculus of cerebellum | uncinate fasciculus of pons | uncinate fasciculus of Russell | uncinate fasciculus of the pons | uncinate fasciculus-2
+  SNOMED ID   : SNOMED:369083001  validated=True
+  SNOMED xrefs: SCTID:369083001
+  FMA ID      : fma77636  validated=True
+  FMA xrefs   : FMA:77636
+  All xrefs   : BAMS:unc | BIRNLEX:983 | DHBA:10594 | FMA:77636 | MESH:D000083382 | neuronames:597 | SCTID:369083001 | UMLS:C0228271 | W
+
+▶ ventral amygdalofugal pathway
+  UBERON ID   : UBERON:0002745
+  UBERON label: ventral amygdalofugal projection
+  Status      : ok
+  Definition  : 
+  Exact syns  : projectiones ventrales amygdalae | ventral amygdalofugal pathway
+  Related syns: tractus amygdalofugalis ventralis
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma61977  validated=True
+  FMA xrefs   : FMA:61977
+  All xrefs   : BAMS:vaf | BIRNLEX:1563 | FMA:61977 | neuronames:287 | UMLS:C0175242
+
+▶ inferior longitudinal fasciculus
+  UBERON ID   : UBERON:0034743
+  UBERON label: inferior longitudinal fasciculus
+  Status      : ok
+  Definition  : The inferior longitudinal fasciculus connects the temporal lobe and occipital lobe, running along the lateral walls of t
+  Related syns: external sagittal stratum | fasciculus fronto-occipitalis inferior | fasciculus longitudinalis inferior | ilf
+  SNOMED ID   : SNOMED:369085008  validated=True
+  SNOMED xrefs: SCTID:369085008
+  FMA ID      : fma77632  validated=True
+  FMA xrefs   : FMA:77632
+  All xrefs   : DHBA:10580 | FMA:77632 | HBA:9260 | neuronames:1443 | NeuroNamesCNID:538 | SCTID:369085008 | Wikipedia:Inferior_longitud
+
+▶ superior longitudinal fasciculus
+  UBERON ID   : UBERON:0022246
+  UBERON label: superior longitudinal fasciculus
+  Status      : ok
+  Definition  : The superior longitudinal fasciculus (also called the superior longitudinal fascicle or SLF) is a pair of long bi-direct
+  Related syns: superior longitudinal fascicle
+  SNOMED ID   : SNOMED:369082006  validated=True
+  SNOMED xrefs: SCTID:369082006
+  FMA ID      : fma77631  validated=True
+  FMA xrefs   : FMA:77631
+  All xrefs   : DHBA:10592 | FMA:77631 | HBA:9281 | neuronames:2080 | SCTID:369082006 | Wikipedia:Superior_longitudinal_fasciculus
+
+▶ callosum forceps minor
+  UBERON ID   : UBERON:0034678
+  UBERON label: forceps minor of corpus callosum
+  Status      : ok
+  Definition  : 
+  Exact syns  : anterior forceps | anterior forceps of corpus callosum | forceps frontalis | forceps minor | frontal forceps | minor forceps
+  Related syns: anterior forceps | anterior forceps of the corpus callosum | corpus callosum, anterior forceps | corpus callosum, anterior forceps (Arnold) | corpus callosum, forceps minor | forceps frontalis | forceps minor | forceps minor corporis callosi | forceps minor of corpus callosum | forceps minor of the corpus callosum | frontal forceps
+  SNOMED ID   : SNOMED:42932006  validated=False
+  SNOMED xrefs: SCTID:369199005
+  FMA ID      : fma61944  validated=True
+  FMA xrefs   : FMA:61944
+  All xrefs   : DHBA:12024 | FMA:61944 | neuronames:192 | SCTID:369199005
+
+▶ callosum forceps major
+  UBERON ID   : UBERON:0034676
+  UBERON label: forceps major of corpus callosum
+  Status      : ok
+  Definition  : 
+  Exact syns  : forceps major | forceps major of corpus callosum | forceps occipitalis | major forceps | occipital forceps | posterior forceps | posterior forceps of corpus callosum
+  Related syns: ccs-ma | corpus callosum, forceps major | corpus callosum, posterior forceps (Arnold) | forceps major corporis callosi | forceps major of corpus callosum | forceps major of the corpus callosum | forceps occipitalis | occipital forceps | posterior forceps | posterior forceps of the corpus callosum
+  SNOMED ID   : SNOMED:80049006  validated=False
+  SNOMED xrefs: SCTID:369201007
+  FMA ID      : fma61949  validated=True
+  FMA xrefs   : FMA:61949
+  All xrefs   : DHBA:12025 | FMA:61949 | neuronames:197 | SCTID:369201007
+
+▶ tapetum
+  UBERON ID   : UBERON:0000373
+  UBERON label: tapetum of corpus callosum
+  Status      : ok
+  Definition  : On either side of the corpus collosum, the fibers radiate in the white substance and pass to the various parts of the ce
+  Related syns: tapetum corporis callosi
+  Broad syns  : tapetum
+  SNOMED ID   : SNOMED:279312006  validated=True
+  SNOMED xrefs: SCTID:279312006
+  FMA ID      : fma77208  validated=True
+  FMA xrefs   : FMA:77208
+  All xrefs   : DHBA:12027 | FMA:77208 | HBA:265504966 | neuronames:1596 | SCTID:279312006 | Wikipedia:Tapetum_of_corpus_callosum
+
+▶ anterior thalamic radiation
+  UBERON ID   : UBERON:0034746
+  UBERON label: anterior thalamic radiation
+  Status      : ok
+  Definition  : 
+  Exact syns  : anterior radiation of thalamus | anterior thalamic radiation | radiatio thalami anterior
+  Related syns: anterior thalamic radiation | anterior thalamic radiations | athf | radiationes thalamicae anteriores
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma76976  validated=True
+  FMA xrefs   : FMA:76976
+  All xrefs   : DHBA:12043 | FMA:76976 | neuronames:1726
+
+▶ pontine crossing tract
+  UBERON ID   : UBERON:0022421
+  UBERON label: pontocerebellar tract
+  Status      : ok
+  Definition  : The second order neuron fibers of the corticopontocerebellar tracts that cross to the other side of the pons and run wit
+  Exact syns  : fibrae pontocerebellaris | pontine crossing tract | pontocerebellar fibers | tractus pontocerebellaris
+  Related syns: pncb
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: SCTID:360457005
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : 
+  All xrefs   : DHBA:12769 | HBA:265505470 | neuronames:1345 | SCTID:360457005 | Wikipedia:Pontocerebellar_fibers
+
+▶ acoustic radiation
+  UBERON ID   : UBERON:0022262
+  UBERON label: auditory radiation
+  Status      : ok
+  Definition  : The acoustic radiations or auditory radiations are structures found in the brain, in the ventral cochlear pathway, a par
+  Exact syns  : acoustic radiation | geniculotemporal radiation | geniculotemporal tract | radiatio acustica
+  Related syns: auditory radiation | auditory radiations
+  SNOMED ID   : SNOMED:410726006  validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma62413  validated=True
+  FMA xrefs   : FMA:62413
+  All xrefs   : DHBA:266441583 | FMA:62413 | HBA:265504974 | neuronames:2084 | Wikipedia:Acoustic_radiation
+
+▶ accumbofrontal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ arcuate fasciculus
+  UBERON ID   : UBERON:0035937
+  UBERON label: arcuate fasciculus
+  Status      : ok
+  Definition  : The arcuate fasciculus (Latin, curved bundle) is the neural pathway connecting the posterior part of the temporoparietal
+  Exact syns  : arcuate fascicle | cerebral arcuate fasciculus | fasciculus arcuatus
+  Related syns: AF | arcuate fascicle | arcuate fasciculus | ARF | fibrae arcuatae cerebri
+  SNOMED ID   : SNOMED:727100000  validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma276650  validated=True
+  FMA xrefs   : FMA:276650
+  All xrefs   : DHBA:10569 | FMA:276650 | HBA:9231 | neuronames:2063 | Wikipedia:Arcuate_fasciculus
+
+▶ posterior arcuate fasciculus
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum bundle dorsal
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum bundle ventral
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum cingulate
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum hippocampus
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum subgenual
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum periGenual
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ cingulum temporal
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum anterior midbody
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum body
+  UBERON ID   : UBERON:0015510
+  UBERON label: body of corpus callosum
+  Status      : ok
+  Definition  : An area within the corpus callosum, a white matter structure within the cleft that separates the left and right cerebral
+  Exact syns  : corpus callosum body | truncus corporis callosi
+  Related syns: body of corpus callosum | body of the corpus callosum | corpus callosum truncus | corpus callosum, body | corpus callosum, corpus | trunculus corporis callosi | truncus corpus callosi | trunk of corpus callosum
+  SNOMED ID   : SNOMED:279307005  validated=True
+  SNOMED xrefs: SCTID:279307005
+  FMA ID      : fma61947  validated=True
+  FMA xrefs   : FMA:61947
+  All xrefs   : DHBA:10564 | FMA:61947 | HBA:9224 | NCIT:C32216 | neuronames:195 | NeuroNamesCNID:177 | SCTID:279307005 | UMLS:C0152320
+
+▶ corpus callosum body central
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum body parietal
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum body prefrontal
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum body premotor
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum body temporal
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum genu
+  UBERON ID   : UBERON:0015599
+  UBERON label: genu of corpus callosum
+  Status      : ok
+  Definition  : Part of corpus callosum comprising the 'kneelike' anterior bend (adapted from Nolte, The Human Brain, 6th ed., 2009 pg 6
+  Exact syns  : corpus callosum genu
+  Related syns: corpus callosum, genu | genu | genu corporis callosi | genu corpus callosi | genu of corpus callosum | genu of the corpus callosum | rostrum of corpus callosum (Mai)
+  SNOMED ID   : SNOMED:279310003  validated=True
+  SNOMED xrefs: SCTID:279310003
+  FMA ID      : fma61946  validated=True
+  FMA xrefs   : FMA:61946
+  All xrefs   : DHBA:10563 | FMA:61946 | HBA:9223 | MBA:1108 | NCIT:C32675 | neuronames:194 | NeuroNamesCNID:176 | NLX:144462 | SCTID:27
+
+▶ corpus callosum isthmus
+  UBERON ID   : UBERON:0009835
+  UBERON label: anterior cingulate cortex
+  Status      : ok
+  Definition  : The frontal part of the cingulate cortex that resembles a collar form around the corpus callosum. It includes both the v
+  Related syns: ACC
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : FMA:271599
+  All xrefs   : BIRNLEX:936 | BTO:0004249 | FMA:271599 | Wikipedia:Anterior_cingulate_cortex
+
+▶ corpus callosum posterior midbody
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum rostral body
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corpus callosum rostrum
+  UBERON ID   : UBERON:0015703
+  UBERON label: rostrum of corpus callosum
+  Status      : ok
+  Definition  : The part of the corpus callosum that projects posteriorly and inferiorly from the anteriormost genu.
+  Related syns: corpus callosum rostrum | corpus callosum, rostrum | rostrum | rostrum corporis callosi | rostrum corpus callosi | rostrum of corpus callosum | rostrum of the corpus callosum
+  SNOMED ID   : SNOMED:279311004  validated=True
+  SNOMED xrefs: SCTID:279311004
+  FMA ID      : fma61945  validated=True
+  FMA xrefs   : FMA:61945
+  All xrefs   : DHBA:10562 | FMA:61945 | HBA:9226 | MBA:979 | NCIT:C33496 | neuronames:193 | NeuroNamesCNID:175 | SCTID:279311004 | UMLS
+
+▶ corpus callosum splenium
+  UBERON ID   : UBERON:0022430
+  UBERON label: hippocampus cortex cingulum
+  Status      : ok
+  Definition  : 
+  Exact syns  : cingulum (Ammon's horn) | cingulum (hippocampus) | cingulum bundle in hippocampus
+  SNOMED ID   : SNOMED:369085008  validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma61948  validated=False
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ Radiation of corpus callosum
+  UBERON ID   : UBERON:0035924
+  UBERON label: radiation of corpus callosum
+  Status      : ok
+  Definition  : The spreading out of the fibers of the corpus callosum in the centrum semiovale of each cerebral hemisphere.
+  Exact syns  : corpus callosum radiation | radiatio corporis callosi
+  Related syns: CCRD | radiatio corporis callosi | radiations of corpus callosum | radiations of the corpus callosum
+  SNOMED ID   : SNOMED:279308000  validated=True
+  SNOMED xrefs: SCTID:279308000
+  FMA ID      : fma77693  validated=True
+  FMA xrefs   : FMA:77693
+  All xrefs   : DHBA:12026 | FMA:77693 | HBA:265504962 | neuronames:1336 | SCTID:279308000
+
+▶ corticopontine tract
+  UBERON ID   : UBERON:0022271
+  UBERON label: corticopontine fibers
+  Status      : ok
+  Definition  : Corticopontine fibers, commonly referred to as corticobulbar fibers, are projections from the cerebral cortex to the pon
+  Exact syns  : cortico-pontine fibers | cortico-pontine fibers, pontine part | corticopontine fibers | corticopontine fibers of pons | corticopontine fibers set | corticopontine fibres | fibrae corticopontinae | tractus corticopontinus
+  Related syns: corticopontine | corticopontine fibres
+  SNOMED ID   : SNOMED:362408003  validated=False
+  SNOMED xrefs: SCTID:91366009
+  FMA ID      : fma224856  validated=False
+  FMA xrefs   : FMA:75190
+  All xrefs   : DHBA:266441721 | FMA:75190 | HBA:265505490 | neuronames:1322 | SCTID:91366009 | Wikipedia:Corticopontine_fibers
+
+▶ corticostriatal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ dentato-rubro-thalamic tract
+  UBERON ID   : UBERON:0002594
+  UBERON label: dentatothalamic tract
+  Status      : ok
+  Definition  : The dentatothalamic tract (or dentatorubrothalamic tract) is a tract which connects the dentate nucleus and the thalamus
+  Exact syns  : dentatothalamic fibers
+  Related syns: tractus dentatothalamicus
+  Broad syns  : DT
+  SNOMED ID   : SNOMED:1296813009  validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma72462  validated=True
+  FMA xrefs   : FMA:72462
+  All xrefs   : BAMS:dt | BIRNLEX:1104 | DHBA:12357 | FMA:72462 | neuronames:534 | UMLS:C0175411 | Wikipedia:Dentatothalamic_tract
+
+▶ fornix
+  UBERON ID   : UBERON:0000022
+  UBERON label: feather
+  Status      : ok
+  Definition  : One of the epidermal growths that form the distinctive outer covering, or plumage, on birds. Feathers are formed in tiny
+  SNOMED ID   : SNOMED:87463005  validated=False
+  SNOMED xrefs: SCTID:410027006
+  FMA ID      : UBERON:0000052  validated=no_id_supplied
+  FMA xrefs   : 
+  All xrefs   : BTO:0000447 | EFO:0000955 | GAID:1214 | MAT:0000156 | MESH:D005241 | SCTID:410027006 | Wikipedia:Feather
+
+▶ fornix cres stria terminalis
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ frontal aslant tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ fronto-pontine tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   : SNOMED:1296815002  validated=
+  SNOMED xrefs: 
+  FMA ID      : fma75223  validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ inferior fronto-occipital fasciculus
+  UBERON ID   : UBERON:0034753
+  UBERON label: inferior occipitofrontal fasciculus
+  Status      : ok
+  Definition  : 
+  Exact syns  : inferior occipitofrontal fasciculus
+  Related syns: fasciculus occipito-frontalis inferior | fasciculus occipitofrontalis inferior | inferior fronto-occipital fasciculus | inferior occipitofrontal fasciculus
+  SNOMED ID   : SNOMED:369087000  validated=True
+  SNOMED xrefs: SCTID:369087000
+  FMA ID      : fma77633  validated=True
+  FMA xrefs   : FMA:77633
+  All xrefs   : DHBA:12070 | FMA:77633 | neuronames:1442 | SCTID:369087000
+
+▶ anterior limb of internal capsule
+  UBERON ID   : UBERON:0014526
+  UBERON label: anterior limb of internal capsule
+  Status      : ok
+  Definition  : Portion of internal capsule lying between the lenticular nucleus and the head of the caudate nucleus.
+  Exact syns  : capsula interna, pars anterior | crus anterius capsulae internae
+  Related syns: anterior internal capsule | anterior limb
+  SNOMED ID   : SNOMED:3003007  validated=False
+  SNOMED xrefs: SCTID:279295005
+  FMA ID      : fma61952  validated=True
+  FMA xrefs   : FMA:61952
+  All xrefs   : BAMS:aic | DHBA:10582 | FMA:61952 | neuronames:199 | NLX:144257 | SCTID:279295005 | Wikipedia:Anterior_limb_of_internal_
+
+▶ posterior limb of internal capsule
+  UBERON ID   : UBERON:0014527
+  UBERON label: posterior limb of internal capsule
+  Status      : ok
+  Definition  : Portion of internal capsule lying between the globus pallidus and the thalamus (Nolte, The Human Brain, 6th ed., 2009, p
+  Exact syns  : capsula interna, pars posterior | crus posterius capsulae internae
+  Related syns: posterior internal capsule | posterior limb | posterior limb of the internal capsule
+  SNOMED ID   : SNOMED:54728004  validated=False
+  SNOMED xrefs: SCTID:279296006
+  FMA ID      : fma61954  validated=True
+  FMA xrefs   : FMA:61954
+  All xrefs   : BAMS:pic | DHBA:10584 | FMA:61954 | neuronames:201 | NLX:144258 | SCTID:279296006 | Wikipedia:Posterior_limb_of_internal
+
+▶ retrolenticular part of internal capsule
+  UBERON ID   : UBERON:0034749
+  UBERON label: retrolenticular part of internal capsule
+  Status      : ok
+  Definition  : 
+  Exact syns  : pars retrolentiformis | postlenticular portion of internal capsule | retrolenticular limb | retrolentiform limb
+  Related syns: pars retrolenticularis capsulae internae | pars retrolentiformis (capsulae internae) | postlenticular portion of internal capsule | retrolenticular part of internal capsule | retrolenticular part of the internal capsule
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: SCTID:362363008
+  FMA ID      : fma61957  validated=True
+  FMA xrefs   : FMA:61957
+  All xrefs   : DHBA:12052 | FMA:61957 | neuronames:203 | SCTID:362363008
+
+▶ medial forebrain bundle
+  UBERON ID   : UBERON:0001910
+  UBERON label: medial forebrain bundle
+  Status      : ok
+  Definition  : The Medial forebrain bundle (MFB), is a complex bundle of axons coming from the basal olfactory regions, the periamygdal
+  Exact syns  : medial forebrain fasciculus | telencephalic medial fasciculus
+  Related syns: fasciculus longitudinalis telencephali medialis | fasciculus medialis telencephali | fasciculus medialis telencephalicus | fasciculus prosencephalicus medialis | medial forebrain bundles | median forebrain bundle
+  Broad syns  : MFB
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma62064  validated=True
+  FMA xrefs   : FMA:62064
+  All xrefs   : BAMS:mfb | BIRNLEX:908 | DHBA:10587 | FMA:62064 | GAID:736 | HBA:265505190 | MBA:54 | MESH:D008474 | NCIT:C13083 | neuro
+
+▶ medial lemniscus
+  UBERON ID   : UBERON:0003002
+  UBERON label: medial lemniscus
+  Status      : ok
+  Definition  : Fiber tract arising predominantly from neurons in the nucleus gracilis and nucleus cuneatus in the medulla, projecting t
+  Related syns: lemniscus medialis | Reil's band | Reil's ribbon
+  SNOMED ID   : SNOMED:30114003  validated=False
+  SNOMED xrefs: SCTID:362398006
+  FMA ID      : fma83675  validated=True
+  FMA xrefs   : FMA:83675
+  All xrefs   : BAMS:MEL | BAMS:ml | BIRNLEX:887 | BM:LM | DHBA:12763 | DMBA:17776 | FMA:83675 | HBA:12961 | MBA:697 | neuronames:1583 |
+
+▶ cerebral crus
+  UBERON ID   : UBERON:0002631
+  UBERON label: cerebral crus
+  Status      : ok
+  Definition  : The cerebral crus is the anterior portion of the cerebral peduncle which contains the motor tracts, the plural of which 
+  Exact syns  : cerebral peduncle (clinical definition) | crura cerebri | crus cerebri
+  Related syns: base of cerebral peduncle | basis cerebri (Oertel) | basis pedunculi (Oertel) | basis pedunculi cerebri (Willis) | cerebral peduncle, basal part | crus cerebri | crus of the cerebral peduncle | pars neo-encephalica pedunculi | pedunculus cerebri, pars basalis | pes pedunculi | pes pedunculi of midbrain
+  Broad syns  : CCR
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma72464  validated=True
+  FMA xrefs   : FMA:72464
+  All xrefs   : BAMS:cp | BIRNLEX:1218 | BTO:0004677 | EMAPA:37499 | EV:0100243 | FMA:72464 | MA:0001056 | MESH:D065843 | NCIT:C32409 | 
+
+▶ cerebral peduncle
+  UBERON ID   : UBERON:0002623
+  UBERON label: cerebral peduncle
+  Status      : ok
+  Definition  : Synonym for macrodissected adult human tegmentum (Vicq d'Azyr, 1784; Swanson, 2000); pp. 555-556. Later used thus by for
+  Exact syns  : cerebral peduncle | peduncle of midbrain | pedunculus cerebri
+  Related syns: cerebal peduncle | cerebral peduncle (archaic) | pedunculi cerebri | pedunculus cerebralis | pedunculus cerebri | tegmentum
+  Broad syns  : CP
+  SNOMED ID   : SNOMED:362391000  validated=True
+  SNOMED xrefs: SCTID:362391000
+  FMA ID      : fma62394  validated=True
+  FMA xrefs   : FMA:62394
+  All xrefs   : BAMS:cpd | BIRNLEX:1202 | BM:CP | BTO:0004676 | EFO:0001987 | FMA:62394 | MBA:924 | MESH:D065850 | NCIT:C32291 | neurona
+
+▶ inferior cerebellar peduncle
+  UBERON ID   : UBERON:0002163
+  UBERON label: inferior cerebellar peduncle
+  Status      : ok
+  Definition  : Regional part of medullary white matter (according to Neuronames) primarily found at the level of the open medulla, cons
+  Exact syns  : corpus restiforme | restiform body
+  Related syns: crus cerebelli ad medullam oblongatam | crus medullo-cerebellare | inferior cerebellar peduncle (restiform body) | inferior cerebellar peduncle (Ridley) | inferior peduncle | pedunculus cerebellaris caudalis | pedunculus cerebellaris inferior
+  SNOMED ID   : SNOMED:362418008  validated=True
+  SNOMED xrefs: SCTID:362418008
+  FMA ID      : fma72615  validated=True
+  FMA xrefs   : FMA:72615
+  All xrefs   : BAMS:icp | BIRNLEX:1691 | BM:RB | DHBA:12741 | DMBA:17772 | FMA:72615 | HBA:9291 | MA:0002744 | MBA:1123 | neuronames:78
+
+▶ middle cerebellar peduncle
+  UBERON ID   : UBERON:0002152
+  UBERON label: middle cerebellar peduncle
+  Status      : ok
+  Definition  : Regional part of medullary white matter (according to Neuronames) primarily found at the level of the pons, consisting o
+  Exact syns  : brachium pontis
+  Related syns: brachium pontis (stem of middle cerebellar peduncle) | crus cerebelli ad pontem | crus ponto-cerebellare | mid-cerebellar peduncle | pedunculus cerebellaris medialis | pedunculus cerebellaris medius | pedunculus cerebellaris pontinus
+  SNOMED ID   : SNOMED:279219000  validated=True
+  SNOMED xrefs: SCTID:279219000
+  FMA ID      : fma72515  validated=True
+  FMA xrefs   : FMA:72515
+  All xrefs   : BAMS:BP | BAMS:bp | BAMS:mcp | BIRNLEX:1529 | BM:Pons-BP | DHBA:12768 | FMA:72515 | HBA:9294 | MA:0002745 | MBA:78 | MES
+
+▶ superior cerebellar peduncle
+  UBERON ID   : UBERON:0002150
+  UBERON label: superior cerebellar peduncle
+  Status      : ok
+  Definition  : A composite structure of the brain stem, which in NeuroNames is subdivided into the superior cerebellar peduncle of pons
+  Exact syns  : brachium conjunctivum
+  Related syns: crus cerebello-cerebrale | pedunculus cerebellaris cranialis | pedunculus cerebellaris rostralis | pedunculus cerebellaris superior | scp | superior cerebelar peduncles | superior cerebellar peduncle (brachium conjuctivum) | superior cerebellar peduncle (brachium conjunctivum) | superior cerebellar peduncle (Galen, Stilling) | superior peduncle | tractus cerebello-rubralis | tractus cerebello-tegmentalis mesencephali
+  SNOMED ID   : SNOMED:279218008  validated=True
+  SNOMED xrefs: SCTID:279218008
+  FMA ID      : fma72495  validated=False
+  FMA xrefs   : 
+  All xrefs   : BAMS:5 | BAMS:scp | BIRNLEX:1711 | BM:BC | DHBA:12354 | DMBA:17793 | HBA:9297 | MA:0002746 | MBA:326 | neuronames:1736 |
+
+▶ middle longitudinal fasciculus
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ middle longitudinal fasciculus angular
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ middle longitudinal fasciculus superior parietal
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ optic radiation
+  UBERON ID   : UBERON:0022264
+  UBERON label: optic radiation
+  Status      : ok
+  Definition  : The optic radiation (also known as the geniculo-calcarine tract or as the geniculostriate pathway) is a collection of ax
+  Exact syns  : Gratiolet's radiation
+  Related syns: archambault%27s loop | genicula-celcarine tract | geniculo-calcarine tract | geniculocalcarine tract | geniculostriate pathway | meyer's loop | optic radiations | radiatio optica | railroad nystagmus
+  SNOMED ID   : SNOMED:280953008  validated=True
+  SNOMED xrefs: SCTID:280953008
+  FMA ID      : fma61941  validated=True
+  FMA xrefs   : FMA:61941
+  All xrefs   : DHBA:266441621 | FMA:61941 | HBA:9311 | neuronames:1440 | SCTID:280953008 | Wikipedia:Optic_radiation
+
+▶ parieto-occipital pontine tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ reticulospinal tract
+  UBERON ID   : UBERON:0022943
+  UBERON label: reticulospinal tract
+  Status      : ok
+  Definition  : The reticulospinal tract (or anterior reticulospinal tract) is an extrapyramidal motor tract which travels from the reti
+  Exact syns  : reticulospinal tract
+  SNOMED ID   : SNOMED:1296557000  validated=False
+  SNOMED xrefs: 
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : 
+  All xrefs   : BIRNLEX:1471 | neuronames:805 | UMLS:C0175558 | Wikipedia:Reticulospinal_tract
+
+▶ medulla reticulospinal tract
+  UBERON ID   : UBERON:0004173
+  UBERON label: medulla reticulospinal tract
+  Status      : ok
+  Definition  : Axon tract that carries efferent (outgoing) action potentials from the cell body in the medulla towards target cells in 
+  Exact syns  : medullary reticulospinal tract
+  SNOMED ID   : SNOMED:1296563009    validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma73989  validated=True
+  FMA xrefs   : FMA:73989
+  All xrefs   : FMA:73989 | neuronames:2838
+
+▶ pontine reticulospinal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      : fma73989  validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-fronto-orbital tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-occipital tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-parietal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-postcentral tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-precentral tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-prefrontal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ striato-premotor tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ superior longitudinal fasciculus I
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ superior longitudinal fasciculus II
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ superior longitudinal fasciculus III
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ superior thalamic radiation
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   : SNOMED:369211000  validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ temporo-parietal connection to superior parietal lobule
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ thalamo-occipital tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ thalamo-parietal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ thalamo-postcentral tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ thalamo-precentral tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ thalamo-prefrontal tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ thalamo-premotor tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ vertical occipital fasciculus
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   : SNOMED:80434005  validated=
+  SNOMED xrefs: 
+  FMA ID      : fma321543  validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ corona radiata
+  UBERON ID   : UBERON:0004682
+  UBERON label: corona radiata of neuraxis
+  Status      : ok
+  Definition  : Fan shaped white matter mass comprised of afferent and efferent fibers from the cerebral cortex arranged in radially arr
+  Exact syns  : corona radiata
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma18661  validated=True
+  FMA xrefs   : FMA:18661
+  All xrefs   : DHBA:12030 | FMA:18661 | HBA:265505046 | neuronames:1446 | NLXANAT:090903 | Wikipedia:Corona_radiata
+
+▶ anterior corona radiata
+  UBERON ID   : UBERON:0022425
+  UBERON label: anterior corona radiata
+  Status      : ok
+  Definition  : 
+  Exact syns  : anterior portion of corona radiata
+  Related syns: cor-a
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma277081  validated=False
+  FMA xrefs   : 
+  All xrefs   : DHBA:15541
+
+▶ superior corona radiata
+  UBERON ID   : UBERON:0022426
+  UBERON label: superior corona radiata
+  Status      : ok
+  Definition  : 
+  Exact syns  : superior portion of corona radiata
+  Related syns: cor-s
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma277085  validated=False
+  FMA xrefs   : 
+  All xrefs   : DHBA:15542
+
+▶ posterior corona radiata
+  UBERON ID   : UBERON:0022427
+  UBERON label: posterior corona radiata
+  Status      : ok
+  Definition  : 
+  Exact syns  : posterior portion of corona radiata
+  Related syns: cor-p
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma277083  validated=False
+  FMA xrefs   : 
+  All xrefs   : DHBA:15543
+
+▶ posterior thalamic radiation
+  UBERON ID   : UBERON:0034747
+  UBERON label: posterior thalamic radiation
+  Status      : ok
+  Definition  : 
+  Exact syns  : posterior thalamic radiation | radiatio posterior thalami | radiatio thalamica posterior
+  Related syns: posterior thalamic radiation | posterior thalamic radiations | pthr | radiationes thalamicae posteriores
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma76982  validated=True
+  FMA xrefs   : FMA:76982
+  All xrefs   : DHBA:12053 | FMA:76982 | neuronames:2083
+
+▶ sagittal stratum
+  UBERON ID   : UBERON:0035931
+  UBERON label: sagittal stratum
+  Status      : ok
+  Definition  : 
+  Related syns: sst
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma277107  validated=True
+  FMA xrefs   : FMA:277107
+  All xrefs   : DHBA:12082 | FMA:277107 | HBA:265505286
+
+▶ subcallosal fasciculus
+  UBERON ID   : UBERON:0022250
+  UBERON label: subcallosal fasciculus
+  Status      : ok
+  Definition  : 
+  Exact syns  : fasciculus occipitofrontalis superior | fasciculus subcallosus | superior occipitofrontal fasciculus
+  Related syns: subcallosal bundle | superior fronto-occipital bundle | superior fronto-occipital fasciculus | superior occipito-frontal fascicle | superior occipitofrontal fasciculus
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: SCTID:369086009
+  FMA ID      : fma77637  validated=True
+  FMA xrefs   : FMA:77634 | FMA:77637
+  All xrefs   : DHBA:12071 | FMA:77634 | FMA:77637 | HBA:265505338 | neuronames:2141 | SCTID:369086009
+
+▶ superior fronto-occipital fasciculus
+  UBERON ID   : UBERON:0022250
+  UBERON label: subcallosal fasciculus
+  Status      : ok
+  Definition  : 
+  Exact syns  : fasciculus occipitofrontalis superior | fasciculus subcallosus | superior occipitofrontal fasciculus
+  Related syns: subcallosal bundle | superior fronto-occipital bundle | superior fronto-occipital fasciculus | superior occipito-frontal fascicle | superior occipitofrontal fasciculus
+  SNOMED ID   : SNOMED:369086009  validated=True
+  SNOMED xrefs: SCTID:369086009
+  FMA ID      : fma77634  validated=True
+  FMA xrefs   : FMA:77634 | FMA:77637
+  All xrefs   : DHBA:12071 | FMA:77634 | FMA:77637 | HBA:265505338 | neuronames:2141 | SCTID:369086009
+
+▶ superior longitudinal fasciculus temporal part
+  UBERON ID   : UBERON:0022420
+  UBERON label: temporal part of superior longitudinal fasciculus
+  Status      : ok
+  Definition  : 
+  Exact syns  : superior longitudinal fasciculus, temporal division
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ spinothalamic tract
+  UBERON ID   : UBERON:0007703
+  UBERON label: spinothalamic tract
+  Status      : ok
+  Definition  : A tract that originates from neurons in the spinal central gray and projects to various somatosensory nuclei of the thal
+  SNOMED ID   : SNOMED:729386008  validated=False
+  SNOMED xrefs: SCTID:280417000
+  FMA ID      : fma0327373  validated=False
+  FMA xrefs   : 
+  All xrefs   : BAMS:spth | BAMS:stt | BTO:0006128 | DHBA:12789 | MBA:871 | MESH:D013133 | neuronames:2058 | NLXANAT:1010017 | SCTID:280
+
+▶ lateral lemniscus
+  UBERON ID   : UBERON:0002953
+  UBERON label: lateral lemniscus
+  Status      : ok
+  Definition  : A fiber bundle that runs through the medulla, pons and midbrain that arises in the cochlear nucleus and projects to vari
+  Exact syns  : lateral fillet
+  Related syns: central acoustic tract | lateral lemniscus (Reil) | lemniscus acusticus | lemniscus lateralis
+  SNOMED ID   : SNOMED:362399003  validated=True
+  SNOMED xrefs: SCTID:362399003
+  FMA ID      : fma72502  validated=True
+  FMA xrefs   : FMA:72502
+  All xrefs   : BAMS:II | BAMS:ll | BIRNLEX:976 | BM:Pons-LL | DHBA:12760 | DMBA:17774 | FMA:72502 | HBA:12958 | MBA:658 | neuronames:60
+
+▶ brachium of inferior colliculus
+  UBERON ID   : UBERON:0003025
+  UBERON label: brachium of inferior colliculus
+  Status      : ok
+  Definition  : The Brachium of inferior colliculus (or inferior brachium) carries auditory afferent fibers from the inferior colliculus
+  Exact syns  : brachium of medial geniculate | inferior brachium | inferior collicular brachium | inferior colliculus brachium | inferior quadrigeminal brachium | peduncle of inferior colliculus
+  Related syns: brachium colliculi caudalis | brachium colliculi inferioris | brachium of the inferior colliculus | brachium quadrigeminum inferius | nucleus of the brachium of the inferior colliculus
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma71114  validated=True
+  FMA xrefs   : FMA:71114
+  All xrefs   : BAMS:BIC | BAMS:bic | BIRNLEX:929 | BM:MB-BSC | DHBA:12327 | DMBA:17753 | FMA:71114 | HBA:265505386 | MBA:482 | neuronam
+
+▶ mammillothalamic tract
+  UBERON ID   : UBERON:0006696
+  UBERON label: mammillothalamic axonal tract
+  Status      : ok
+  Definition  : A fiber pathway that originates from neurons in the posterior hypothalamic region and projects to various nuclei of the 
+  Exact syns  : fasciculus mammillothalamicus | mammillothalamic fasciculus | mammillothalamic tract | vicq d'azyr's bundle
+  Related syns: bundle of vicq d%27azyr | bundle of vicq d%e2%80%99azyr | fasciculus mammillothalamicus | mamillo-thalamic tract | mammillo-thalamic fasciculus | mammillo-thalamic tract | mammillothalamic tract | thalamomammillary fasciculus
+  SNOMED ID   : SNOMED:369139008  validated=False
+  SNOMED xrefs: 
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : FMA:83849
+  All xrefs   : BAMS:mt | BAMS:mtt | DHBA:10586 | DMBA:17782 | FMA:83849 | HBA:9266 | neuronames:2438 | NLXANAT:1010016 | Wikipedia:Mamm
+
+▶ mammillotegmental tract
+  UBERON ID   : UBERON:0006698
+  UBERON label: mammillotegmental axonal tract
+  Status      : ok
+  Definition  : The mammillotegmental tract is the collection of axons that connects the ventral diencephalon to the tegmentum and pons.
+  Exact syns  : Gudden tract | mammillotegmental fasciculus | mammillotegmental tract | mammillotegmental tract of hypothalamus | von Gudden's tract
+  Related syns: fasciculus mamillotegmentalis | mammillo-tegmental tract | mammillotegmental tract (Gudden) | medial tegmental tract | tractus hypothalamicotegmentalis | tractus hypothalamotegmentalis | tractus mamillo-tegmentalis | tractus mammillotegmentalis
+  Broad syns  : MTG
+  SNOMED ID   : SNOMED:369140005  validated=True
+  SNOMED xrefs: SCTID:369140005
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : FMA:62058
+  All xrefs   : BAMS:mtg | BIRNLEX:1497 | DHBA:12065 | DMBA:17781 | FMA:62058 | HBA:265505178 | MBA:681 | neuronames:423 | SCTID:3691400
+
+▶ stria medullaris thalami
+  UBERON ID   : UBERON:0006086
+  UBERON label: stria medullaris
+  Status      : ok
+  Definition  : The major afferent track to the habenula from the telencephalon (particularly in the septal side) in all vertebrates[But
+  Exact syns  : stria habenularis | stria medullaris (Wenzel-Wenzel) | stria medullaris of thalamus | stria medullaris thalami | stria medullaris thalamica
+  Related syns: stria medularis | stria medullaris (Wenzel-Wenzel) | stria medullaris of the thalamus
+  Broad syns  : SM
+  SNOMED ID   : SNOMED:362368004  validated=True
+  SNOMED xrefs: SCTID:362368004
+  FMA ID      : fma62080  validated=True
+  FMA xrefs   : FMA:62080
+  All xrefs   : BAMS:sm | BAMS:st | BAMS:St.m. | BIRNLEX:1066 | BM:Die-SM | DHBA:10590 | DMBA:17794 | EMAPA:36607 | FMA:62080 | HBA:9275
+
+▶ fasciculus retroflexus
+  UBERON ID   : UBERON:0002138
+  UBERON label: habenulo-interpeduncular tract
+  Status      : ok
+  Definition  : White matter tract containing fibers projecting from the habenular nuclei to the interpeduncular nucleus (Maryann Marton
+  Exact syns  : fasciculus retroflexus | fasciculus retroflexus (Meynert) | habenulointerpeduncular fasciculus | habenulopeduncular tract | Meynert's retroflex bundle | tractus habenulo-interpeduncularis
+  Related syns: fasciculus habenulo-interpeduncularis | fasciculus retroflexi | fasciculus retroflexus (of Meynert) | habenulointerpeduncular tract | rf | tractus habenulo-intercruralis | tractus habenulointercruralis | tractus habenulointerpeduncularis | tractus retroflexus (Meynert)
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: SCTID:369194000
+  FMA ID      :   validated=no_id_supplied
+  FMA xrefs   : FMA:72400
+  All xrefs   : BAMS:fr | BIRNLEX:1504 | BM:HPT | DMBA:17790 | EMAPA:36606 | FMA:72400 | HBA:12953 | MBA:595 | neuronames:2318 | SCTID:3
+
+▶ diagonal band of Broca
+  UBERON ID   : UBERON:0002741
+  UBERON label: diagonal band of Broca
+  Status      : ok
+  Definition  : A white fibre bundle descending in the precommissural septum toward the base of the forebrain, immediately rostral to th
+  Exact syns  : broca's diagonal band | broca's diagonal gyrus | diagonal band | diagonal band of Broca | diagonal gyrus | olfactory fasciculus | olfactory radiations of Zuckerkandl
+  Related syns: band of Broca | bandaletta diagonalis (Broca) | bandeletta diagonalis | diagonal band(Broca) | fasciculus diagonalis Brocae | fasciculus olfactorius | fasciculus olfactorius (hippocampi) | fasciculus olfactorius cornu Ammonis | fasciculus septo-amygdalicus | gyrus diagonalis | gyrus diagonalis rhinencephli | stria diagonalis | stria diagonalis (Broca)
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma61973  validated=True
+  FMA xrefs   : FMA:61973
+  All xrefs   : BAMS:db | BIRNLEX:1551 | BTO:0002445 | DHBA:12034 | FMA:61973 | GAID:684 | MESH:D020667 | neuronames:285 | UMLS:C0175226
+
+▶ corticobulbar tract
+  UBERON ID   : UBERON:0022272
+  UBERON label: corticobulbar tract
+  Status      : ok
+  Definition  : The corticobulbar (or corticonuclear) tract is a white matter pathway connecting the cerebral cortex to the brainstem. T
+  Related syns: bulbar | cbu-h | cortico-bulbar tract | corticobulbar | corticobulbar axons | corticobulbar fiber | corticobulbar fibre | corticobulbar pathway | corticonuclear tract
+  SNOMED ID   : SNOMED:361565003  validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma275544  validated=True
+  FMA xrefs   : FMA:275544
+  All xrefs   : DHBA:12774 | FMA:275544 | HBA:265505058 | MBA:994 | neuronames:1319 | Wikipedia:Corticobulbar_tract
+
+▶ central tegmental tract
+  UBERON ID   : UBERON:0009643
+  UBERON label: central tegmental tract
+  Status      : ok
+  Definition  : A pathway containing fibers from midbrain nuclei that project to the inferior olivary complex, as well as fibers origina
+  SNOMED ID   : SNOMED:369034000  validated=True
+  SNOMED xrefs: SCTID:369034000
+  FMA ID      : fma83850  validated=True
+  FMA xrefs   : FMA:83850
+  All xrefs   : BAMS:ctg | DHBA:12730 | FMA:83850 | HBA:12952 | neuronames:2204 | NLXANAT:1010012 | SCTID:369034000 | Wikipedia:Central_
+
+▶ rubrospinal tract
+  UBERON ID   : UBERON:0002714
+  UBERON label: rubrospinal tract
+  Status      : ok
+  Definition  : White matter tract arising in red nucleus and projecting to spinal cord ventral horn.
+  Exact syns  : Monakow's tract | rubrospinal tract (Monakow)
+  Related syns: tractus rubrospinalis
+  SNOMED ID   : SNOMED:369264001  validated=True
+  SNOMED xrefs: SCTID:369264001
+  FMA ID      : fma72640  validated=True
+  FMA xrefs   : FMA:72640
+  All xrefs   : BAMS:rs | BAMS:rust | BIRNLEX:1476 | BTO:0006159 | DHBA:12782 | DMBA:17792 | FMA:72640 | MBA:863 | neuronames:806 | SCTI
+
+▶ vestibulospinal tract
+  UBERON ID   : UBERON:0002768
+  UBERON label: vestibulospinal tract
+  Status      : ok
+  Definition  : A long process of a CNS neuron, that carries efferent (outgoing) action potentials from the cell body in the vestibular 
+  Exact syns  : vestibulo-spinal tract
+  Related syns: tractus vestibulospinalis | vestibulo-spinal tracts | vestibulospinal pathway | vestibulospinal tracts
+  SNOMED ID   : SNOMED:369289007  validated=True
+  SNOMED xrefs: SCTID:369289007
+  FMA ID      : fma72646  validated=True
+  FMA xrefs   : FMA:72646
+  All xrefs   : BAMS:vs | BIRNLEX:1643 | FMA:72646 | MBA:941 | neuronames:812 | SCTID:369289007 | TAO:0000709 | UMLS:C0152404 | Wikipedi
+
+▶ tectospinal tract
+  UBERON ID   : UBERON:0002949
+  UBERON label: tectospinal tract
+  Status      : ok
+  Definition  : A long process of a CNS neuron, that carries efferent (outgoing) action potentials from the cell body in the superior co
+  Exact syns  : Held's bundle | tectospinal pathway
+  Related syns: tectospinal pathway | tectospinal tract | tectospinal tract of the medulla | tractus tectospinalis
+  SNOMED ID   : SNOMED:1296555008  validated=False
+  SNOMED xrefs: 
+  FMA ID      : fma72620  validated=True
+  FMA xrefs   : FMA:72620
+  All xrefs   : BAMS:ts | BAMS:tsp | BIRNLEX:759 | BM:TSp | DHBA:12794 | DMBA:17802 | FMA:72620 | HBA:265505662 | MBA:877 | neuronames:7
+
+▶ dorsal longitudinal fasciculus
+  UBERON ID   : UBERON:0003045
+  UBERON label: dorsal longitudinal fasciculus
+  Status      : ok
+  Definition  : A fiber bundle containing fibers from nuclei of the hypothalamus that project to the dorsal tegmental nucleus and other 
+  Exact syns  : bundle of Schutz | fasciculus longitudinalis posterior | fasciculus of Schutz | posterior longitudinal fasciculus
+  Related syns: accessory cochlear nucleus | DLF | dorsal longitudinal fascicle | fasciculus longitudinalis dorsalis | fasciculus longitudinalis posterior | nucleus acustici accessorici | nucleus cochlearis anterior | nucleus cochlearis ventralis | ventral cochlear nuclei | ventral division of cochlear nucleus
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma83845  validated=True
+  FMA xrefs   : FMA:83845
+  All xrefs   : BAMS:dlf | BAMS:VCo | BIRNLEX:986 | DHBA:12035 | FMA:83845 | HBA:9348 | MBA:547 | neuronames:722 | Wikipedia:Dorsal_long
+
+▶ ansa lenticularis
+  UBERON ID   : UBERON:0002706
+  UBERON label: posterior nucleus of hypothalamus
+  Status      : ok
+  Definition  : The posterior nucleus of the hypothalamus is one of the many nuclei that make up the hypothalamic region of the brain. I
+  Exact syns  : area hypothalamica posterior | posterior hypothalamic area | posterior hypothalamic nucleus
+  Related syns: area posterior hypothalami | nucleus hypothalamicus posterior | nucleus posterior hypothalami | posterior nucleus | posterior nucleus of the hypothalamus
+  Broad syns  : PH
+  SNOMED ID   : SNOMED:37467007  validated=False
+  SNOMED xrefs: SCTID:362385002
+  FMA ID      : fma62070  validated=False
+  FMA xrefs   : FMA:62350
+  All xrefs   : BAMS:HPA | BAMS:PH | BIRNLEX:1463 | BM:Die-Hy-HPA | BTO:0002461 | DHBA:10503 | EV:0100235 | FMA:62350 | HBA:12910 | MBA:
+
+▶ lenticular fasciculus
+  UBERON ID   : UBERON:0014529
+  UBERON label: lenticular fasciculus
+  Status      : ok
+  Definition  : The lenticular fasciculus is a tract connecting the globus pallidus to the Thalamic fasciculus. The thalamic fasciculus 
+  Exact syns  : dorsal division of ansa lenticularis | fasciculus lenticularis | fasciculus lenticularis [h2] | forel's field h2 | lenticular fasciculus | lenticular fasciculus [h2] | lenticular fasciculus of diencephalon | lenticular fasciculus of telencephalon | tegmental area h2
+  Related syns: fasciculus lenticularis | field H2 | field H2 of Forel | Forel's field H2
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: SCTID:5677006
+  FMA ID      : fma61976  validated=True
+  FMA xrefs   : FMA:61976 | FMA:62067
+  All xrefs   : BAMS:lenf_(H2) | DHBA:10585 | FMA:61976 | FMA:62067 | HBA:265505158 | neuronames:3064 | NLXANAT:1010015 | SCTID:5677006 
+
+▶ thalamic fasciculus
+  UBERON ID   : UBERON:0022254
+  UBERON label: ventral thalamic fasciculus
+  Status      : ok
+  Definition  : The thalamic fasciculus is a component of the subthalamus. It is sometimes considered synonymous with 'field H1 of Forel
+  Exact syns  : area subthalamica tegmentalis, pars dorsomedialis | area tegmentalis H1 | area tegmentalis, pars dorsalis | area tegmentalis, pars dorsalis (Forel) | campus foreli (pars dorsalis) | fasciculus thalamicus | fasciculus thalamicus [h1] | fasciculus thalamicus hypothalami | field H1 | forel's field h1 | forelli campus I | h1 bundle of Forel | h1 field of Forel | tegmental area h1 | thalamic fasciculus | thalamic fasciculus [h1]
+  SNOMED ID   : SNOMED:369185006  validated=True
+  SNOMED xrefs: SCTID:369185006
+  FMA ID      : fma62065  validated=True
+  FMA xrefs   : FMA:62065
+  All xrefs   : DHBA:10593 | FMA:62065 | HBA:265505374 | neuronames:439 | SCTID:369185006 | Wikipedia:Thalamic_fasciculus
+
+▶ temporoparietal aslant tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ genu of internal capsule
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   : SNOMED:362362003  validated=
+  SNOMED xrefs: 
+  FMA ID      : fma61953  validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ sublenticular part of internal capsule
+  UBERON ID   : UBERON:0035632
+  UBERON label: 
+  Status      : not_found
+  Definition  : 
+  SNOMED ID   : SNOMED:279222003  validated=
+  SNOMED xrefs: 
+  FMA ID      : fma61958  validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ Meyer's loop
+  UBERON ID   : UBERON:0035935
+  UBERON label: Meyer's loop of optic radiation
+  Status      : ok
+  Definition  : Part of the optic radiation which sweeps back on itself into the temporal lobe, just lateral to the temporal horn of the
+  Exact syns  : inferior optic radiation | Meyer's loop
+  Related syns: or-lp
+  SNOMED ID   :   validated=no_id_supplied
+  SNOMED xrefs: 
+  FMA ID      : fma280849  validated=True
+  FMA xrefs   : FMA:280849
+  All xrefs   : FMA:280849 | HBA:265505214 | neuronames:1466
+
+▶ Baum's loop
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
+
+▶ lateral olfactory stria
+  UBERON ID   : UBERON:0001888
+  UBERON label: lateral olfactory stria
+  Status      : ok
+  Definition  : White matter tract that contains projections from the olfactory bulb to the olfactory cortex (Maryann Martone).
+  Exact syns  : tractus olfactorius lateralis
+  Related syns: lateral olfactory stria | lateral olfactory tract | lateral olfactory tract, body | lateral olfactory tract. body | LOT | olfactory tract | stria olfactoria lateralis | tractus olfactorius lateralis
+  SNOMED ID   : SNOMED:369107001  validated=True
+  SNOMED xrefs: SCTID:369107001
+  FMA ID      : fma61971  validated=True
+  FMA xrefs   : FMA:61971
+  All xrefs   : BAMS:LDTR | BAMS:lo | BAMS:lot | BAMS:LOTR | BIRNLEX:1559 | BM:Tel-LOT | DHBA:12075 | DMBA:17773 | EV:0100175 | FMA:6197
+
+▶ medial olfactory stria
+  UBERON ID   : UBERON:0034734
+  UBERON label: medial olfactory stria
+  Status      : ok
+  Definition  : The medial olfactory stria turns medialward behind the parolfactory area and ends in the subcallosal gyrus; in some case
+  Exact syns  : stria olfactoria medialis
+  Related syns: medial olfactory tract | tractus olfactorius medialis
+  SNOMED ID   : SNOMED:369105009  validated=True
+  SNOMED xrefs: SCTID:369105009
+  FMA ID      : fma77627  validated=True
+  FMA xrefs   : FMA:77627
+  All xrefs   : DHBA:12076 | DMBA:17779 | FMA:77627 | HBA:265505518 | neuronames:2278 | SCTID:369105009 | Wikipedia:Medial_olfactory_str
+
+▶ frontoorbital aslant tract
+  UBERON ID   : 
+  UBERON label: 
+  Status      : missing_id
+  Definition  : 
+  SNOMED ID   :   validated=
+  SNOMED xrefs: 
+  FMA ID      :   validated=
+  FMA xrefs   : 
+  All xrefs   : 
